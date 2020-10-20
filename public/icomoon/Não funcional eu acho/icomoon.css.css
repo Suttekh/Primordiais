@@ -1,0 +1,4603 @@
+@font-face {
+  font-family: 'MinhaFonte';
+  src:  url('fonts/MinhaFonte.eot?fpmtec');
+  src:  url('fonts/MinhaFonte.eot?fpmtec#iefix') format('embedded-opentype'),
+    url('fonts/MinhaFonte.ttf?fpmtec') format('truetype'),
+    url('fonts/MinhaFonte.woff?fpmtec') format('woff'),
+    url('fonts/MinhaFonte.svg?fpmtec#MinhaFonte') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="JJ-"], [class*=" JJ-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MinhaFonte' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.JJ-home:before {
+  content: "\ec9b";
+}
+.JJ-home2:before {
+  content: "\ec9c";
+}
+.JJ-home3:before {
+  content: "\ec9d";
+}
+.JJ-office:before {
+  content: "\ec9e";
+}
+.JJ-newspaper:before {
+  content: "\ec9f";
+}
+.JJ-pencil:before {
+  content: "\eca0";
+}
+.JJ-pencil2:before {
+  content: "\eca1";
+}
+.JJ-quill:before {
+  content: "\eca2";
+}
+.JJ-pen:before {
+  content: "\eca3";
+}
+.JJ-blog:before {
+  content: "\eca4";
+}
+.JJ-eyedropper:before {
+  content: "\eca5";
+}
+.JJ-droplet:before {
+  content: "\eca6";
+}
+.JJ-paint-format:before {
+  content: "\eca7";
+}
+.JJ-image:before {
+  content: "\eca8";
+}
+.JJ-images:before {
+  content: "\eca9";
+}
+.JJ-camera:before {
+  content: "\ecaa";
+}
+.JJ-headphones:before {
+  content: "\ecab";
+}
+.JJ-music:before {
+  content: "\ecac";
+}
+.JJ-play:before {
+  content: "\ecad";
+}
+.JJ-film:before {
+  content: "\ecae";
+}
+.JJ-video-camera:before {
+  content: "\ecaf";
+}
+.JJ-dice:before {
+  content: "\ecb0";
+}
+.JJ-pacman:before {
+  content: "\ecb1";
+}
+.JJ-spades:before {
+  content: "\ecb2";
+}
+.JJ-clubs:before {
+  content: "\ecb3";
+}
+.JJ-diamonds:before {
+  content: "\ecb4";
+}
+.JJ-bullhorn:before {
+  content: "\ecb5";
+}
+.JJ-connection:before {
+  content: "\ecb6";
+}
+.JJ-podcast:before {
+  content: "\ecb7";
+}
+.JJ-feed:before {
+  content: "\ecb8";
+}
+.JJ-mic:before {
+  content: "\ecb9";
+}
+.JJ-book:before {
+  content: "\ecba";
+}
+.JJ-books:before {
+  content: "\ecbb";
+}
+.JJ-library:before {
+  content: "\ecbc";
+}
+.JJ-file-text:before {
+  content: "\ecbd";
+}
+.JJ-profile:before {
+  content: "\ecbe";
+}
+.JJ-file-empty:before {
+  content: "\ecbf";
+}
+.JJ-files-empty:before {
+  content: "\ecc0";
+}
+.JJ-file-text2:before {
+  content: "\ecc1";
+}
+.JJ-file-picture:before {
+  content: "\ecc2";
+}
+.JJ-file-music:before {
+  content: "\ecc3";
+}
+.JJ-file-play:before {
+  content: "\ecc4";
+}
+.JJ-file-video:before {
+  content: "\ecc5";
+}
+.JJ-file-zip:before {
+  content: "\ecc6";
+}
+.JJ-copy:before {
+  content: "\ecc7";
+}
+.JJ-paste:before {
+  content: "\ecc8";
+}
+.JJ-stack:before {
+  content: "\ecc9";
+}
+.JJ-folder:before {
+  content: "\ecca";
+}
+.JJ-folder-open:before {
+  content: "\eccb";
+}
+.JJ-folder-plus:before {
+  content: "\eccc";
+}
+.JJ-folder-minus:before {
+  content: "\eccd";
+}
+.JJ-folder-download:before {
+  content: "\ecce";
+}
+.JJ-folder-upload:before {
+  content: "\eccf";
+}
+.JJ-price-tag:before {
+  content: "\ecd0";
+}
+.JJ-price-tags:before {
+  content: "\ecd1";
+}
+.JJ-barcode:before {
+  content: "\ecd2";
+}
+.JJ-qrcode:before {
+  content: "\ecd3";
+}
+.JJ-ticket:before {
+  content: "\ecd4";
+}
+.JJ-cart:before {
+  content: "\ecd5";
+}
+.JJ-coin-dollar:before {
+  content: "\ecd6";
+}
+.JJ-coin-euro:before {
+  content: "\ecd7";
+}
+.JJ-coin-pound:before {
+  content: "\ecd8";
+}
+.JJ-coin-yen:before {
+  content: "\ecd9";
+}
+.JJ-credit-card:before {
+  content: "\ecda";
+}
+.JJ-calculator:before {
+  content: "\ecdb";
+}
+.JJ-lifebuoy:before {
+  content: "\ecdc";
+}
+.JJ-phone:before {
+  content: "\ecdd";
+}
+.JJ-phone-hang-up:before {
+  content: "\ecde";
+}
+.JJ-address-book:before {
+  content: "\ecdf";
+}
+.JJ-envelop:before {
+  content: "\ece0";
+}
+.JJ-pushpin:before {
+  content: "\ece1";
+}
+.JJ-location:before {
+  content: "\ece2";
+}
+.JJ-location2:before {
+  content: "\ece3";
+}
+.JJ-compass:before {
+  content: "\ece4";
+}
+.JJ-compass2:before {
+  content: "\ece5";
+}
+.JJ-map:before {
+  content: "\ece6";
+}
+.JJ-map2:before {
+  content: "\ece7";
+}
+.JJ-history:before {
+  content: "\ece8";
+}
+.JJ-clock:before {
+  content: "\ece9";
+}
+.JJ-clock2:before {
+  content: "\ecea";
+}
+.JJ-alarm:before {
+  content: "\eceb";
+}
+.JJ-bell:before {
+  content: "\ecec";
+}
+.JJ-stopwatch:before {
+  content: "\eced";
+}
+.JJ-calendar:before {
+  content: "\ecee";
+}
+.JJ-printer:before {
+  content: "\ecef";
+}
+.JJ-keyboard:before {
+  content: "\ecf0";
+}
+.JJ-display:before {
+  content: "\ecf1";
+}
+.JJ-laptop:before {
+  content: "\ecf2";
+}
+.JJ-mobile:before {
+  content: "\ecf3";
+}
+.JJ-mobile2:before {
+  content: "\ecf4";
+}
+.JJ-tablet:before {
+  content: "\ecf5";
+}
+.JJ-tv:before {
+  content: "\ecf6";
+}
+.JJ-drawer:before {
+  content: "\ecf7";
+}
+.JJ-drawer2:before {
+  content: "\ecf8";
+}
+.JJ-box-add:before {
+  content: "\ecf9";
+}
+.JJ-box-remove:before {
+  content: "\ecfa";
+}
+.JJ-download:before {
+  content: "\ecfb";
+}
+.JJ-upload:before {
+  content: "\ecfc";
+}
+.JJ-floppy-disk:before {
+  content: "\ecfd";
+}
+.JJ-drive:before {
+  content: "\ecfe";
+}
+.JJ-database:before {
+  content: "\ecff";
+}
+.JJ-undo:before {
+  content: "\ed00";
+}
+.JJ-redo:before {
+  content: "\ed01";
+}
+.JJ-undo2:before {
+  content: "\ed02";
+}
+.JJ-redo2:before {
+  content: "\ed03";
+}
+.JJ-forward:before {
+  content: "\ed04";
+}
+.JJ-reply:before {
+  content: "\ed05";
+}
+.JJ-bubble:before {
+  content: "\ed06";
+}
+.JJ-bubbles:before {
+  content: "\ed07";
+}
+.JJ-bubbles2:before {
+  content: "\ed08";
+}
+.JJ-bubble2:before {
+  content: "\ed09";
+}
+.JJ-bubbles3:before {
+  content: "\ed0a";
+}
+.JJ-bubbles4:before {
+  content: "\ed0b";
+}
+.JJ-user:before {
+  content: "\ed0c";
+}
+.JJ-users:before {
+  content: "\ed0d";
+}
+.JJ-user-plus:before {
+  content: "\ed0e";
+}
+.JJ-user-minus:before {
+  content: "\ed0f";
+}
+.JJ-user-check:before {
+  content: "\ed10";
+}
+.JJ-user-tie:before {
+  content: "\ed11";
+}
+.JJ-quotes-left:before {
+  content: "\ed12";
+}
+.JJ-quotes-right:before {
+  content: "\ed13";
+}
+.JJ-hour-glass:before {
+  content: "\ed14";
+}
+.JJ-spinner:before {
+  content: "\ed15";
+}
+.JJ-spinner2:before {
+  content: "\ed16";
+}
+.JJ-spinner3:before {
+  content: "\ed17";
+}
+.JJ-spinner4:before {
+  content: "\ed18";
+}
+.JJ-spinner5:before {
+  content: "\ed19";
+}
+.JJ-spinner6:before {
+  content: "\ed1a";
+}
+.JJ-spinner7:before {
+  content: "\ed1b";
+}
+.JJ-spinner8:before {
+  content: "\ed1c";
+}
+.JJ-spinner9:before {
+  content: "\ed1d";
+}
+.JJ-spinner10:before {
+  content: "\ed1e";
+}
+.JJ-spinner11:before {
+  content: "\ed1f";
+}
+.JJ-binoculars:before {
+  content: "\ed20";
+}
+.JJ-search:before {
+  content: "\ed21";
+}
+.JJ-zoom-in:before {
+  content: "\ed22";
+}
+.JJ-zoom-out:before {
+  content: "\ed23";
+}
+.JJ-enlarge:before {
+  content: "\ed24";
+}
+.JJ-shrink:before {
+  content: "\ed25";
+}
+.JJ-enlarge2:before {
+  content: "\ed26";
+}
+.JJ-shrink2:before {
+  content: "\ed27";
+}
+.JJ-key:before {
+  content: "\ed28";
+}
+.JJ-key2:before {
+  content: "\ed29";
+}
+.JJ-lock:before {
+  content: "\ed2a";
+}
+.JJ-unlocked:before {
+  content: "\ed2b";
+}
+.JJ-wrench:before {
+  content: "\ed2c";
+}
+.JJ-equalizer:before {
+  content: "\ed2d";
+}
+.JJ-equalizer2:before {
+  content: "\ed2e";
+}
+.JJ-cog:before {
+  content: "\ed2f";
+}
+.JJ-cogs:before {
+  content: "\ed30";
+}
+.JJ-hammer:before {
+  content: "\ed31";
+}
+.JJ-magic-wand:before {
+  content: "\ed32";
+}
+.JJ-aid-kit:before {
+  content: "\ed33";
+}
+.JJ-bug:before {
+  content: "\ed34";
+}
+.JJ-pie-chart:before {
+  content: "\ed35";
+}
+.JJ-stats-dots:before {
+  content: "\ed36";
+}
+.JJ-stats-bars:before {
+  content: "\ed37";
+}
+.JJ-stats-bars2:before {
+  content: "\ed38";
+}
+.JJ-trophy:before {
+  content: "\ed39";
+}
+.JJ-gift:before {
+  content: "\ed3a";
+}
+.JJ-glass:before {
+  content: "\ed3b";
+}
+.JJ-glass2:before {
+  content: "\ed3c";
+}
+.JJ-mug:before {
+  content: "\ed3d";
+}
+.JJ-spoon-knife:before {
+  content: "\ed3e";
+}
+.JJ-leaf:before {
+  content: "\ed3f";
+}
+.JJ-rocket:before {
+  content: "\ed40";
+}
+.JJ-meter:before {
+  content: "\ed41";
+}
+.JJ-meter2:before {
+  content: "\ed42";
+}
+.JJ-hammer2:before {
+  content: "\ed43";
+}
+.JJ-fire:before {
+  content: "\ed44";
+}
+.JJ-lab:before {
+  content: "\ed45";
+}
+.JJ-magnet:before {
+  content: "\ed46";
+}
+.JJ-bin:before {
+  content: "\ed47";
+}
+.JJ-bin2:before {
+  content: "\ed48";
+}
+.JJ-briefcase:before {
+  content: "\ed49";
+}
+.JJ-airplane:before {
+  content: "\ed4a";
+}
+.JJ-truck:before {
+  content: "\ed4b";
+}
+.JJ-road:before {
+  content: "\ed4c";
+}
+.JJ-accessibility:before {
+  content: "\ed4d";
+}
+.JJ-target:before {
+  content: "\ed4e";
+}
+.JJ-shield:before {
+  content: "\ed4f";
+}
+.JJ-power:before {
+  content: "\ed50";
+}
+.JJ-switch:before {
+  content: "\ed51";
+}
+.JJ-power-cord:before {
+  content: "\ed52";
+}
+.JJ-clipboard:before {
+  content: "\ed53";
+}
+.JJ-list-numbered:before {
+  content: "\ed54";
+}
+.JJ-list:before {
+  content: "\ed55";
+}
+.JJ-list2:before {
+  content: "\ed56";
+}
+.JJ-tree:before {
+  content: "\ed57";
+}
+.JJ-menu:before {
+  content: "\ed58";
+}
+.JJ-menu2:before {
+  content: "\ed59";
+}
+.JJ-menu3:before {
+  content: "\ed5a";
+}
+.JJ-menu4:before {
+  content: "\ed5b";
+}
+.JJ-cloud:before {
+  content: "\ed5c";
+}
+.JJ-cloud-download:before {
+  content: "\ed5d";
+}
+.JJ-cloud-upload:before {
+  content: "\ed5e";
+}
+.JJ-cloud-check:before {
+  content: "\ed5f";
+}
+.JJ-download2:before {
+  content: "\ed60";
+}
+.JJ-upload2:before {
+  content: "\ed61";
+}
+.JJ-download3:before {
+  content: "\ed62";
+}
+.JJ-upload3:before {
+  content: "\ed63";
+}
+.JJ-sphere:before {
+  content: "\ed64";
+}
+.JJ-earth:before {
+  content: "\ed65";
+}
+.JJ-link:before {
+  content: "\ed66";
+}
+.JJ-flag:before {
+  content: "\ed67";
+}
+.JJ-attachment:before {
+  content: "\ed68";
+}
+.JJ-eye:before {
+  content: "\ed69";
+}
+.JJ-eye-plus:before {
+  content: "\ed6a";
+}
+.JJ-eye-minus:before {
+  content: "\ed6b";
+}
+.JJ-eye-blocked:before {
+  content: "\ed6c";
+}
+.JJ-bookmark:before {
+  content: "\ed6d";
+}
+.JJ-bookmarks:before {
+  content: "\ed6e";
+}
+.JJ-sun:before {
+  content: "\ed6f";
+}
+.JJ-contrast:before {
+  content: "\ed70";
+}
+.JJ-brightness-contrast:before {
+  content: "\ed71";
+}
+.JJ-star-empty:before {
+  content: "\ed72";
+}
+.JJ-star-half:before {
+  content: "\ed73";
+}
+.JJ-star-full:before {
+  content: "\ed74";
+}
+.JJ-heart:before {
+  content: "\ed75";
+}
+.JJ-heart-broken:before {
+  content: "\ed76";
+}
+.JJ-man:before {
+  content: "\ed77";
+}
+.JJ-woman:before {
+  content: "\ed78";
+}
+.JJ-man-woman:before {
+  content: "\ed79";
+}
+.JJ-happy:before {
+  content: "\ed7a";
+}
+.JJ-happy2:before {
+  content: "\ed7b";
+}
+.JJ-smile:before {
+  content: "\ed7c";
+}
+.JJ-smile2:before {
+  content: "\ed7d";
+}
+.JJ-tongue:before {
+  content: "\ed7e";
+}
+.JJ-tongue2:before {
+  content: "\ed7f";
+}
+.JJ-sad:before {
+  content: "\ed80";
+}
+.JJ-sad2:before {
+  content: "\ed81";
+}
+.JJ-wink:before {
+  content: "\ed82";
+}
+.JJ-wink2:before {
+  content: "\ed83";
+}
+.JJ-grin:before {
+  content: "\ed84";
+}
+.JJ-grin2:before {
+  content: "\ed85";
+}
+.JJ-cool:before {
+  content: "\ed86";
+}
+.JJ-cool2:before {
+  content: "\ed87";
+}
+.JJ-angry:before {
+  content: "\ed88";
+}
+.JJ-angry2:before {
+  content: "\ed89";
+}
+.JJ-evil:before {
+  content: "\ed8a";
+}
+.JJ-evil2:before {
+  content: "\ed8b";
+}
+.JJ-shocked:before {
+  content: "\ed8c";
+}
+.JJ-shocked2:before {
+  content: "\ed8d";
+}
+.JJ-baffled:before {
+  content: "\ed8e";
+}
+.JJ-baffled2:before {
+  content: "\ed8f";
+}
+.JJ-confused:before {
+  content: "\ed90";
+}
+.JJ-confused2:before {
+  content: "\ed91";
+}
+.JJ-neutral:before {
+  content: "\ed92";
+}
+.JJ-neutral2:before {
+  content: "\ed93";
+}
+.JJ-hipster:before {
+  content: "\ed94";
+}
+.JJ-hipster2:before {
+  content: "\ed95";
+}
+.JJ-wondering:before {
+  content: "\ed96";
+}
+.JJ-wondering2:before {
+  content: "\ed97";
+}
+.JJ-sleepy:before {
+  content: "\ed98";
+}
+.JJ-sleepy2:before {
+  content: "\ed99";
+}
+.JJ-frustrated:before {
+  content: "\ed9a";
+}
+.JJ-frustrated2:before {
+  content: "\ed9b";
+}
+.JJ-crying:before {
+  content: "\ed9c";
+}
+.JJ-crying2:before {
+  content: "\ed9d";
+}
+.JJ-point-up:before {
+  content: "\ed9e";
+}
+.JJ-point-right:before {
+  content: "\ed9f";
+}
+.JJ-point-down:before {
+  content: "\eda0";
+}
+.JJ-point-left:before {
+  content: "\eda1";
+}
+.JJ-warning:before {
+  content: "\eda2";
+}
+.JJ-notification:before {
+  content: "\eda3";
+}
+.JJ-question:before {
+  content: "\eda4";
+}
+.JJ-plus:before {
+  content: "\eda5";
+}
+.JJ-minus:before {
+  content: "\eda6";
+}
+.JJ-info:before {
+  content: "\eda7";
+}
+.JJ-cancel-circle:before {
+  content: "\eda8";
+}
+.JJ-blocked:before {
+  content: "\eda9";
+}
+.JJ-cross:before {
+  content: "\edaa";
+}
+.JJ-checkmark:before {
+  content: "\edab";
+}
+.JJ-checkmark2:before {
+  content: "\edac";
+}
+.JJ-spell-check:before {
+  content: "\edad";
+}
+.JJ-enter:before {
+  content: "\edae";
+}
+.JJ-exit:before {
+  content: "\edaf";
+}
+.JJ-play2:before {
+  content: "\edb0";
+}
+.JJ-pause:before {
+  content: "\edb1";
+}
+.JJ-stop:before {
+  content: "\edb2";
+}
+.JJ-previous:before {
+  content: "\edb3";
+}
+.JJ-next:before {
+  content: "\edb4";
+}
+.JJ-backward:before {
+  content: "\edb5";
+}
+.JJ-forward2:before {
+  content: "\edb6";
+}
+.JJ-play3:before {
+  content: "\edb7";
+}
+.JJ-pause2:before {
+  content: "\edb8";
+}
+.JJ-stop2:before {
+  content: "\edb9";
+}
+.JJ-backward2:before {
+  content: "\edba";
+}
+.JJ-forward3:before {
+  content: "\edbb";
+}
+.JJ-first:before {
+  content: "\edbc";
+}
+.JJ-last:before {
+  content: "\edbd";
+}
+.JJ-previous2:before {
+  content: "\edbe";
+}
+.JJ-next2:before {
+  content: "\edbf";
+}
+.JJ-eject:before {
+  content: "\edc0";
+}
+.JJ-volume-high:before {
+  content: "\edc1";
+}
+.JJ-volume-medium:before {
+  content: "\edc2";
+}
+.JJ-volume-low:before {
+  content: "\edc3";
+}
+.JJ-volume-mute:before {
+  content: "\edc4";
+}
+.JJ-volume-mute2:before {
+  content: "\edc5";
+}
+.JJ-volume-increase:before {
+  content: "\edc6";
+}
+.JJ-volume-decrease:before {
+  content: "\edc7";
+}
+.JJ-loop:before {
+  content: "\edc8";
+}
+.JJ-loop2:before {
+  content: "\edc9";
+}
+.JJ-infinite:before {
+  content: "\edca";
+}
+.JJ-shuffle:before {
+  content: "\edcb";
+}
+.JJ-arrow-up-left:before {
+  content: "\edcc";
+}
+.JJ-arrow-up:before {
+  content: "\edcd";
+}
+.JJ-arrow-up-right:before {
+  content: "\edce";
+}
+.JJ-arrow-right:before {
+  content: "\edcf";
+}
+.JJ-arrow-down-right:before {
+  content: "\edd0";
+}
+.JJ-arrow-down:before {
+  content: "\edd1";
+}
+.JJ-arrow-down-left:before {
+  content: "\edd2";
+}
+.JJ-arrow-left:before {
+  content: "\edd3";
+}
+.JJ-arrow-up-left2:before {
+  content: "\edd4";
+}
+.JJ-arrow-up2:before {
+  content: "\edd5";
+}
+.JJ-arrow-up-right2:before {
+  content: "\edd6";
+}
+.JJ-arrow-right2:before {
+  content: "\edd7";
+}
+.JJ-arrow-down-right2:before {
+  content: "\edd8";
+}
+.JJ-arrow-down2:before {
+  content: "\edd9";
+}
+.JJ-arrow-down-left2:before {
+  content: "\edda";
+}
+.JJ-arrow-left2:before {
+  content: "\eddb";
+}
+.JJ-circle-up:before {
+  content: "\eddc";
+}
+.JJ-circle-right:before {
+  content: "\eddd";
+}
+.JJ-circle-down:before {
+  content: "\edde";
+}
+.JJ-circle-left:before {
+  content: "\eddf";
+}
+.JJ-tab:before {
+  content: "\ede0";
+}
+.JJ-move-up:before {
+  content: "\ede1";
+}
+.JJ-move-down:before {
+  content: "\ede2";
+}
+.JJ-sort-alpha-asc:before {
+  content: "\ede3";
+}
+.JJ-sort-alpha-desc:before {
+  content: "\ede4";
+}
+.JJ-sort-numeric-asc:before {
+  content: "\ede5";
+}
+.JJ-sort-numberic-desc:before {
+  content: "\ede6";
+}
+.JJ-sort-amount-asc:before {
+  content: "\ede7";
+}
+.JJ-sort-amount-desc:before {
+  content: "\ede8";
+}
+.JJ-command:before {
+  content: "\ede9";
+}
+.JJ-shift:before {
+  content: "\edea";
+}
+.JJ-ctrl:before {
+  content: "\edeb";
+}
+.JJ-opt:before {
+  content: "\edec";
+}
+.JJ-checkbox-checked:before {
+  content: "\eded";
+}
+.JJ-checkbox-unchecked:before {
+  content: "\edee";
+}
+.JJ-radio-checked:before {
+  content: "\edef";
+}
+.JJ-radio-checked2:before {
+  content: "\edf0";
+}
+.JJ-radio-unchecked:before {
+  content: "\edf1";
+}
+.JJ-crop:before {
+  content: "\edf2";
+}
+.JJ-make-group:before {
+  content: "\edf3";
+}
+.JJ-ungroup:before {
+  content: "\edf4";
+}
+.JJ-scissors:before {
+  content: "\edf5";
+}
+.JJ-filter:before {
+  content: "\edf6";
+}
+.JJ-font:before {
+  content: "\edf7";
+}
+.JJ-ligature:before {
+  content: "\edf8";
+}
+.JJ-ligature2:before {
+  content: "\edf9";
+}
+.JJ-text-height:before {
+  content: "\edfa";
+}
+.JJ-text-width:before {
+  content: "\edfb";
+}
+.JJ-font-size:before {
+  content: "\edfc";
+}
+.JJ-bold:before {
+  content: "\edfd";
+}
+.JJ-underline:before {
+  content: "\edfe";
+}
+.JJ-italic:before {
+  content: "\edff";
+}
+.JJ-strikethrough:before {
+  content: "\ee00";
+}
+.JJ-omega:before {
+  content: "\ee01";
+}
+.JJ-sigma:before {
+  content: "\ee02";
+}
+.JJ-page-break:before {
+  content: "\ee03";
+}
+.JJ-superscript:before {
+  content: "\ee04";
+}
+.JJ-subscript:before {
+  content: "\ee05";
+}
+.JJ-superscript2:before {
+  content: "\ee06";
+}
+.JJ-subscript2:before {
+  content: "\ee07";
+}
+.JJ-text-color:before {
+  content: "\ee08";
+}
+.JJ-pagebreak:before {
+  content: "\ee09";
+}
+.JJ-clear-formatting:before {
+  content: "\ee0a";
+}
+.JJ-table:before {
+  content: "\ee0b";
+}
+.JJ-table2:before {
+  content: "\ee0c";
+}
+.JJ-insert-template:before {
+  content: "\ee0d";
+}
+.JJ-pilcrow:before {
+  content: "\ee0e";
+}
+.JJ-ltr:before {
+  content: "\ee0f";
+}
+.JJ-rtl:before {
+  content: "\ee10";
+}
+.JJ-section:before {
+  content: "\ee11";
+}
+.JJ-paragraph-left:before {
+  content: "\ee12";
+}
+.JJ-paragraph-center:before {
+  content: "\ee13";
+}
+.JJ-paragraph-right:before {
+  content: "\ee14";
+}
+.JJ-paragraph-justify:before {
+  content: "\ee15";
+}
+.JJ-indent-increase:before {
+  content: "\ee16";
+}
+.JJ-indent-decrease:before {
+  content: "\ee17";
+}
+.JJ-share:before {
+  content: "\ee18";
+}
+.JJ-new-tab:before {
+  content: "\ee19";
+}
+.JJ-embed:before {
+  content: "\ee1a";
+}
+.JJ-embed2:before {
+  content: "\ee1b";
+}
+.JJ-terminal:before {
+  content: "\ee1c";
+}
+.JJ-share2:before {
+  content: "\ee1d";
+}
+.JJ-mail:before {
+  content: "\ee1e";
+}
+.JJ-mail2:before {
+  content: "\ee1f";
+}
+.JJ-mail3:before {
+  content: "\ee20";
+}
+.JJ-mail4:before {
+  content: "\ee21";
+}
+.JJ-amazon:before {
+  content: "\ee22";
+}
+.JJ-google:before {
+  content: "\ee23";
+}
+.JJ-google2:before {
+  content: "\ee24";
+}
+.JJ-google3:before {
+  content: "\ee25";
+}
+.JJ-google-plus:before {
+  content: "\ee26";
+}
+.JJ-google-plus2:before {
+  content: "\ee27";
+}
+.JJ-google-plus3:before {
+  content: "\ee28";
+}
+.JJ-hangouts:before {
+  content: "\ee29";
+}
+.JJ-google-drive:before {
+  content: "\ee2a";
+}
+.JJ-facebook:before {
+  content: "\ee2b";
+}
+.JJ-facebook2:before {
+  content: "\ee2c";
+}
+.JJ-instagram:before {
+  content: "\ee2d";
+}
+.JJ-whatsapp:before {
+  content: "\ee2e";
+}
+.JJ-spotify:before {
+  content: "\ee2f";
+}
+.JJ-telegram:before {
+  content: "\ee30";
+}
+.JJ-twitter:before {
+  content: "\ee31";
+}
+.JJ-vine:before {
+  content: "\ee32";
+}
+.JJ-vk:before {
+  content: "\ee33";
+}
+.JJ-renren:before {
+  content: "\ee34";
+}
+.JJ-sina-weibo:before {
+  content: "\ee35";
+}
+.JJ-rss:before {
+  content: "\ee36";
+}
+.JJ-rss2:before {
+  content: "\ee37";
+}
+.JJ-youtube:before {
+  content: "\ee38";
+}
+.JJ-youtube2:before {
+  content: "\ee39";
+}
+.JJ-twitch:before {
+  content: "\ee3a";
+}
+.JJ-vimeo:before {
+  content: "\ee3b";
+}
+.JJ-vimeo2:before {
+  content: "\ee3c";
+}
+.JJ-lanyrd:before {
+  content: "\ee3d";
+}
+.JJ-flickr:before {
+  content: "\ee3e";
+}
+.JJ-flickr2:before {
+  content: "\ee3f";
+}
+.JJ-flickr3:before {
+  content: "\ee40";
+}
+.JJ-flickr4:before {
+  content: "\ee41";
+}
+.JJ-dribbble:before {
+  content: "\ee42";
+}
+.JJ-behance:before {
+  content: "\ee43";
+}
+.JJ-behance2:before {
+  content: "\ee44";
+}
+.JJ-deviantart:before {
+  content: "\ee45";
+}
+.JJ-500px:before {
+  content: "\ee46";
+}
+.JJ-steam:before {
+  content: "\ee47";
+}
+.JJ-steam2:before {
+  content: "\ee48";
+}
+.JJ-dropbox:before {
+  content: "\ee49";
+}
+.JJ-onedrive:before {
+  content: "\ee4a";
+}
+.JJ-github:before {
+  content: "\ee4b";
+}
+.JJ-npm:before {
+  content: "\ee4c";
+}
+.JJ-basecamp:before {
+  content: "\ee4d";
+}
+.JJ-trello:before {
+  content: "\ee4e";
+}
+.JJ-wordpress:before {
+  content: "\ee4f";
+}
+.JJ-joomla:before {
+  content: "\ee50";
+}
+.JJ-ello:before {
+  content: "\ee51";
+}
+.JJ-blogger:before {
+  content: "\ee52";
+}
+.JJ-blogger2:before {
+  content: "\ee53";
+}
+.JJ-tumblr:before {
+  content: "\ee54";
+}
+.JJ-tumblr2:before {
+  content: "\ee55";
+}
+.JJ-yahoo:before {
+  content: "\ee56";
+}
+.JJ-yahoo2:before {
+  content: "\ee57";
+}
+.JJ-tux:before {
+  content: "\ee58";
+}
+.JJ-appleinc:before {
+  content: "\ee59";
+}
+.JJ-finder:before {
+  content: "\ee5a";
+}
+.JJ-android:before {
+  content: "\ee5b";
+}
+.JJ-windows:before {
+  content: "\ee5c";
+}
+.JJ-windows8:before {
+  content: "\ee5d";
+}
+.JJ-soundcloud:before {
+  content: "\ee5e";
+}
+.JJ-soundcloud2:before {
+  content: "\ee5f";
+}
+.JJ-skype:before {
+  content: "\ee60";
+}
+.JJ-reddit:before {
+  content: "\ee61";
+}
+.JJ-hackernews:before {
+  content: "\ee62";
+}
+.JJ-wikipedia:before {
+  content: "\ee63";
+}
+.JJ-linkedin:before {
+  content: "\ee64";
+}
+.JJ-linkedin2:before {
+  content: "\ee65";
+}
+.JJ-lastfm:before {
+  content: "\ee66";
+}
+.JJ-lastfm2:before {
+  content: "\ee67";
+}
+.JJ-delicious:before {
+  content: "\ee68";
+}
+.JJ-stumbleupon:before {
+  content: "\ee69";
+}
+.JJ-stumbleupon2:before {
+  content: "\ee6a";
+}
+.JJ-stackoverflow:before {
+  content: "\ee6b";
+}
+.JJ-pinterest:before {
+  content: "\ee6c";
+}
+.JJ-pinterest2:before {
+  content: "\ee6d";
+}
+.JJ-xing:before {
+  content: "\ee6e";
+}
+.JJ-xing2:before {
+  content: "\ee6f";
+}
+.JJ-flattr:before {
+  content: "\ee70";
+}
+.JJ-foursquare:before {
+  content: "\ee71";
+}
+.JJ-yelp:before {
+  content: "\ee72";
+}
+.JJ-paypal:before {
+  content: "\ee73";
+}
+.JJ-chrome:before {
+  content: "\ee74";
+}
+.JJ-firefox:before {
+  content: "\ee75";
+}
+.JJ-IE:before {
+  content: "\ee76";
+}
+.JJ-edge:before {
+  content: "\ee77";
+}
+.JJ-safari:before {
+  content: "\ee78";
+}
+.JJ-opera:before {
+  content: "\ee79";
+}
+.JJ-file-pdf:before {
+  content: "\ee7a";
+}
+.JJ-file-openoffice:before {
+  content: "\ee7b";
+}
+.JJ-file-word:before {
+  content: "\ee7c";
+}
+.JJ-file-excel:before {
+  content: "\ee7d";
+}
+.JJ-libreoffice:before {
+  content: "\ee7e";
+}
+.JJ-html-five:before {
+  content: "\ee7f";
+}
+.JJ-html-five2:before {
+  content: "\ee80";
+}
+.JJ-css3:before {
+  content: "\ee81";
+}
+.JJ-git:before {
+  content: "\ee82";
+}
+.JJ-codepen:before {
+  content: "\ee83";
+}
+.JJ-svg:before {
+  content: "\ee84";
+}
+.JJ-IcoMoon:before {
+  content: "\ee85";
+}
+.JJ-apacheflink:before {
+  content: "\ee86";
+  color: #e6526f;
+}
+.JJ-gnu:before {
+  content: "\ee87";
+  color: #a42e2b;
+}
+.JJ-gov-dot-uk:before {
+  content: "\ee88";
+  color: #005ea5;
+}
+.JJ-gradle:before {
+  content: "\ee89";
+}
+.JJ-happycow:before {
+  content: "\ee8a";
+  color: #7c4ec4;
+}
+.JJ-hootsuite:before {
+  content: "\ee8b";
+}
+.JJ-postgresql:before {
+  content: "\ee8c";
+  color: #336791;
+}
+.JJ-riseup:before {
+  content: "\ee8d";
+  color: #5e9ee3;
+}
+.JJ-twitch1:before {
+  content: "\ee8e";
+  color: #6441a4;
+}
+.JJ-type:before {
+  content: "\e900";
+}
+.JJ-box:before {
+  content: "\e901";
+}
+.JJ-archive:before {
+  content: "\e902";
+}
+.JJ-envelope:before {
+  content: "\e903";
+}
+.JJ-email:before {
+  content: "\e904";
+}
+.JJ-files:before {
+  content: "\e905";
+}
+.JJ-uniE906:before {
+  content: "\e906";
+}
+.JJ-file-settings:before {
+  content: "\e907";
+}
+.JJ-file-add:before {
+  content: "\e908";
+}
+.JJ-file:before {
+  content: "\e909";
+}
+.JJ-align-left:before {
+  content: "\e90a";
+}
+.JJ-align-right:before {
+  content: "\e90b";
+}
+.JJ-align-center:before {
+  content: "\e90c";
+}
+.JJ-align-justify:before {
+  content: "\e90d";
+}
+.JJ-file-broken:before {
+  content: "\e90e";
+}
+.JJ-browser:before {
+  content: "\e90f";
+}
+.JJ-windows1:before {
+  content: "\e910";
+}
+.JJ-window:before {
+  content: "\e911";
+}
+.JJ-folder1:before {
+  content: "\e912";
+}
+.JJ-folder-add:before {
+  content: "\e913";
+}
+.JJ-folder-settings:before {
+  content: "\e914";
+}
+.JJ-folder-check:before {
+  content: "\e915";
+}
+.JJ-wifi-low:before {
+  content: "\e916";
+}
+.JJ-wifi-mid:before {
+  content: "\e917";
+}
+.JJ-wifi-full:before {
+  content: "\e918";
+}
+.JJ-connection-empty:before {
+  content: "\e919";
+}
+.JJ-connection-25:before {
+  content: "\e91a";
+}
+.JJ-connection-50:before {
+  content: "\e91b";
+}
+.JJ-connection-75:before {
+  content: "\e91c";
+}
+.JJ-connection-full:before {
+  content: "\e91d";
+}
+.JJ-list1:before {
+  content: "\e91e";
+}
+.JJ-grid:before {
+  content: "\e91f";
+}
+.JJ-uniE920:before {
+  content: "\e920";
+}
+.JJ-battery-charging:before {
+  content: "\e921";
+}
+.JJ-battery-empty:before {
+  content: "\e922";
+}
+.JJ-battery-25:before {
+  content: "\e923";
+}
+.JJ-battery-50:before {
+  content: "\e924";
+}
+.JJ-battery-75:before {
+  content: "\e925";
+}
+.JJ-battery-full:before {
+  content: "\e926";
+}
+.JJ-settings:before {
+  content: "\e927";
+}
+.JJ-arrow-left1:before {
+  content: "\e928";
+}
+.JJ-arrow-up1:before {
+  content: "\e929";
+}
+.JJ-arrow-down1:before {
+  content: "\e92a";
+}
+.JJ-arrow-right1:before {
+  content: "\e92b";
+}
+.JJ-reload:before {
+  content: "\e92c";
+}
+.JJ-refresh:before {
+  content: "\e92d";
+}
+.JJ-volume:before {
+  content: "\e92e";
+}
+.JJ-volume-increase1:before {
+  content: "\e92f";
+}
+.JJ-volume-decrease1:before {
+  content: "\e930";
+}
+.JJ-mute:before {
+  content: "\e931";
+}
+.JJ-microphone:before {
+  content: "\e932";
+}
+.JJ-microphone-off:before {
+  content: "\e933";
+}
+.JJ-book1:before {
+  content: "\e934";
+}
+.JJ-checkmark1:before {
+  content: "\e935";
+}
+.JJ-checkbox-checked1:before {
+  content: "\e936";
+}
+.JJ-checkbox:before {
+  content: "\e937";
+}
+.JJ-paperclip:before {
+  content: "\e938";
+}
+.JJ-download1:before {
+  content: "\e939";
+}
+.JJ-tag:before {
+  content: "\e93a";
+}
+.JJ-trashcan:before {
+  content: "\e93b";
+}
+.JJ-search1:before {
+  content: "\e93c";
+}
+.JJ-zoomin:before {
+  content: "\e93d";
+}
+.JJ-zoomout:before {
+  content: "\e93e";
+}
+.JJ-chat:before {
+  content: "\e93f";
+}
+.JJ-chat-1:before {
+  content: "\e940";
+}
+.JJ-chat-2:before {
+  content: "\e941";
+}
+.JJ-chat-3:before {
+  content: "\e942";
+}
+.JJ-comment:before {
+  content: "\e943";
+}
+.JJ-calendar1:before {
+  content: "\e944";
+}
+.JJ-bookmark1:before {
+  content: "\e945";
+}
+.JJ-email1:before {
+  content: "\e946";
+}
+.JJ-heart1:before {
+  content: "\e947";
+}
+.JJ-enter1:before {
+  content: "\e948";
+}
+.JJ-cloud1:before {
+  content: "\e949";
+}
+.JJ-book2:before {
+  content: "\e94a";
+}
+.JJ-star:before {
+  content: "\e94b";
+}
+.JJ-clock1:before {
+  content: "\e94c";
+}
+.JJ-printer1:before {
+  content: "\e94d";
+}
+.JJ-home1:before {
+  content: "\e94e";
+}
+.JJ-flag1:before {
+  content: "\e94f";
+}
+.JJ-meter1:before {
+  content: "\e950";
+}
+.JJ-switch1:before {
+  content: "\e951";
+}
+.JJ-forbidden:before {
+  content: "\e952";
+}
+.JJ-lock1:before {
+  content: "\e953";
+}
+.JJ-unlocked1:before {
+  content: "\e954";
+}
+.JJ-unlocked2:before {
+  content: "\e955";
+}
+.JJ-users1:before {
+  content: "\e956";
+}
+.JJ-user1:before {
+  content: "\e957";
+}
+.JJ-users2:before {
+  content: "\e958";
+}
+.JJ-user2:before {
+  content: "\e959";
+}
+.JJ-bullhorn1:before {
+  content: "\e95a";
+}
+.JJ-share1:before {
+  content: "\e95b";
+}
+.JJ-screen:before {
+  content: "\e95c";
+}
+.JJ-phone1:before {
+  content: "\e95d";
+}
+.JJ-phone-portrait:before {
+  content: "\e95e";
+}
+.JJ-phone-landscape:before {
+  content: "\e95f";
+}
+.JJ-tablet1:before {
+  content: "\e960";
+}
+.JJ-tablet-landscape:before {
+  content: "\e961";
+}
+.JJ-laptop1:before {
+  content: "\e962";
+}
+.JJ-camera1:before {
+  content: "\e963";
+}
+.JJ-microwaveoven:before {
+  content: "\e964";
+}
+.JJ-creditcards:before {
+  content: "\e965";
+}
+.JJ-calculator1:before {
+  content: "\e966";
+}
+.JJ-bag:before {
+  content: "\e967";
+}
+.JJ-diamond:before {
+  content: "\e968";
+}
+.JJ-drink:before {
+  content: "\e969";
+}
+.JJ-shorts:before {
+  content: "\e96a";
+}
+.JJ-vcard:before {
+  content: "\e96b";
+}
+.JJ-sun1:before {
+  content: "\e96c";
+}
+.JJ-bill:before {
+  content: "\e96d";
+}
+.JJ-coffee:before {
+  content: "\e96e";
+}
+.JJ-uniE96F:before {
+  content: "\e96f";
+}
+.JJ-newspaper1:before {
+  content: "\e970";
+}
+.JJ-stack1:before {
+  content: "\e971";
+}
+.JJ-mapmarker:before {
+  content: "\e972";
+}
+.JJ-map1:before {
+  content: "\e973";
+}
+.JJ-support:before {
+  content: "\e974";
+}
+.JJ-uniE975:before {
+  content: "\e975";
+}
+.JJ-barbell:before {
+  content: "\e976";
+}
+.JJ-stopwatch1:before {
+  content: "\e977";
+}
+.JJ-atom:before {
+  content: "\e978";
+}
+.JJ-syringe:before {
+  content: "\e979";
+}
+.JJ-health:before {
+  content: "\e97a";
+}
+.JJ-bolt:before {
+  content: "\e97b";
+}
+.JJ-pill:before {
+  content: "\e97c";
+}
+.JJ-bones:before {
+  content: "\e97d";
+}
+.JJ-lab1:before {
+  content: "\e97e";
+}
+.JJ-clipboard1:before {
+  content: "\e97f";
+}
+.JJ-mug1:before {
+  content: "\e980";
+}
+.JJ-bucket:before {
+  content: "\e981";
+}
+.JJ-select:before {
+  content: "\e982";
+}
+.JJ-graph:before {
+  content: "\e983";
+}
+.JJ-crop1:before {
+  content: "\e984";
+}
+.JJ-image1:before {
+  content: "\e985";
+}
+.JJ-cube:before {
+  content: "\e986";
+}
+.JJ-bars:before {
+  content: "\e987";
+}
+.JJ-chart:before {
+  content: "\e988";
+}
+.JJ-pencil1:before {
+  content: "\e989";
+}
+.JJ-measure:before {
+  content: "\e98a";
+}
+.JJ-eyedropper1:before {
+  content: "\e98b";
+}
+.JJ-add-to-list:before {
+  content: "\e98c";
+}
+.JJ-classic-computer:before {
+  content: "\e98d";
+}
+.JJ-controller-fast-backward:before {
+  content: "\e98e";
+}
+.JJ-creative-commons-attribution:before {
+  content: "\e98f";
+}
+.JJ-creative-commons-noderivs:before {
+  content: "\e990";
+}
+.JJ-creative-commons-noncommercial-eu:before {
+  content: "\e991";
+}
+.JJ-creative-commons-noncommercial-us:before {
+  content: "\e992";
+}
+.JJ-creative-commons-public-domain:before {
+  content: "\e993";
+}
+.JJ-creative-commons-remix:before {
+  content: "\e994";
+}
+.JJ-creative-commons-share:before {
+  content: "\e995";
+}
+.JJ-creative-commons-sharealike:before {
+  content: "\e996";
+}
+.JJ-creative-commons:before {
+  content: "\e997";
+}
+.JJ-document-landscape:before {
+  content: "\e998";
+}
+.JJ-remove-user:before {
+  content: "\e999";
+}
+.JJ-warning1:before {
+  content: "\e99a";
+}
+.JJ-arrow-bold-down:before {
+  content: "\e99b";
+}
+.JJ-arrow-bold-left:before {
+  content: "\e99c";
+}
+.JJ-arrow-bold-right:before {
+  content: "\e99d";
+}
+.JJ-arrow-bold-up:before {
+  content: "\e99e";
+}
+.JJ-arrow-down3:before {
+  content: "\e99f";
+}
+.JJ-arrow-left3:before {
+  content: "\e9a0";
+}
+.JJ-arrow-long-down:before {
+  content: "\e9a1";
+}
+.JJ-arrow-long-left:before {
+  content: "\e9a2";
+}
+.JJ-arrow-long-right:before {
+  content: "\e9a3";
+}
+.JJ-arrow-long-up:before {
+  content: "\e9a4";
+}
+.JJ-arrow-right3:before {
+  content: "\e9a5";
+}
+.JJ-arrow-up3:before {
+  content: "\e9a6";
+}
+.JJ-arrow-with-circle-down:before {
+  content: "\e9a7";
+}
+.JJ-arrow-with-circle-left:before {
+  content: "\e9a8";
+}
+.JJ-arrow-with-circle-right:before {
+  content: "\e9a9";
+}
+.JJ-arrow-with-circle-up:before {
+  content: "\e9aa";
+}
+.JJ-bookmark2:before {
+  content: "\e9ab";
+}
+.JJ-bookmarks1:before {
+  content: "\e9ac";
+}
+.JJ-chevron-down:before {
+  content: "\e9ad";
+}
+.JJ-chevron-left:before {
+  content: "\e9ae";
+}
+.JJ-chevron-right:before {
+  content: "\e9af";
+}
+.JJ-chevron-small-down:before {
+  content: "\e9b0";
+}
+.JJ-chevron-small-left:before {
+  content: "\e9b1";
+}
+.JJ-chevron-small-right:before {
+  content: "\e9b2";
+}
+.JJ-chevron-small-up:before {
+  content: "\e9b3";
+}
+.JJ-chevron-thin-down:before {
+  content: "\e9b4";
+}
+.JJ-chevron-thin-left:before {
+  content: "\e9b5";
+}
+.JJ-chevron-thin-right:before {
+  content: "\e9b6";
+}
+.JJ-chevron-thin-up:before {
+  content: "\e9b7";
+}
+.JJ-chevron-up:before {
+  content: "\e9b8";
+}
+.JJ-chevron-with-circle-down:before {
+  content: "\e9b9";
+}
+.JJ-chevron-with-circle-left:before {
+  content: "\e9ba";
+}
+.JJ-chevron-with-circle-right:before {
+  content: "\e9bb";
+}
+.JJ-chevron-with-circle-up:before {
+  content: "\e9bc";
+}
+.JJ-cloud2:before {
+  content: "\e9bd";
+}
+.JJ-controller-fast-forward:before {
+  content: "\e9be";
+}
+.JJ-controller-jump-to-start:before {
+  content: "\e9bf";
+}
+.JJ-controller-next:before {
+  content: "\e9c0";
+}
+.JJ-controller-paus:before {
+  content: "\e9c1";
+}
+.JJ-controller-play:before {
+  content: "\e9c2";
+}
+.JJ-controller-record:before {
+  content: "\e9c3";
+}
+.JJ-controller-stop:before {
+  content: "\e9c4";
+}
+.JJ-controller-volume:before {
+  content: "\e9c5";
+}
+.JJ-dot-single:before {
+  content: "\e9c6";
+}
+.JJ-dots-three-horizontal:before {
+  content: "\e9c7";
+}
+.JJ-dots-three-vertical:before {
+  content: "\e9c8";
+}
+.JJ-dots-two-horizontal:before {
+  content: "\e9c9";
+}
+.JJ-dots-two-vertical:before {
+  content: "\e9ca";
+}
+.JJ-download4:before {
+  content: "\e9cb";
+}
+.JJ-emoji-flirt:before {
+  content: "\e9cc";
+}
+.JJ-flow-branch:before {
+  content: "\e9cd";
+}
+.JJ-flow-cascade:before {
+  content: "\e9ce";
+}
+.JJ-flow-line:before {
+  content: "\e9cf";
+}
+.JJ-flow-parallel:before {
+  content: "\e9d0";
+}
+.JJ-flow-tree:before {
+  content: "\e9d1";
+}
+.JJ-install:before {
+  content: "\e9d2";
+}
+.JJ-layers:before {
+  content: "\e9d3";
+}
+.JJ-open-book:before {
+  content: "\e9d4";
+}
+.JJ-resize-100:before {
+  content: "\e9d5";
+}
+.JJ-resize-full-screen:before {
+  content: "\e9d6";
+}
+.JJ-save:before {
+  content: "\e9d7";
+}
+.JJ-select-arrows:before {
+  content: "\e9d8";
+}
+.JJ-sound-mute:before {
+  content: "\e9d9";
+}
+.JJ-sound:before {
+  content: "\e9da";
+}
+.JJ-trash:before {
+  content: "\e9db";
+}
+.JJ-triangle-down:before {
+  content: "\e9dc";
+}
+.JJ-triangle-left:before {
+  content: "\e9dd";
+}
+.JJ-triangle-right:before {
+  content: "\e9de";
+}
+.JJ-triangle-up:before {
+  content: "\e9df";
+}
+.JJ-uninstall:before {
+  content: "\e9e0";
+}
+.JJ-upload-to-cloud:before {
+  content: "\e9e1";
+}
+.JJ-upload1:before {
+  content: "\e9e2";
+}
+.JJ-add-user:before {
+  content: "\e9e3";
+}
+.JJ-address:before {
+  content: "\e9e4";
+}
+.JJ-adjust:before {
+  content: "\e9e5";
+}
+.JJ-air:before {
+  content: "\e9e6";
+}
+.JJ-aircraft-landing:before {
+  content: "\e9e7";
+}
+.JJ-aircraft-take-off:before {
+  content: "\e9e8";
+}
+.JJ-aircraft:before {
+  content: "\e9e9";
+}
+.JJ-align-bottom:before {
+  content: "\e9ea";
+}
+.JJ-align-horizontal-middle:before {
+  content: "\e9eb";
+}
+.JJ-align-left1:before {
+  content: "\e9ec";
+}
+.JJ-align-right1:before {
+  content: "\e9ed";
+}
+.JJ-align-top:before {
+  content: "\e9ee";
+}
+.JJ-align-vertical-middle:before {
+  content: "\e9ef";
+}
+.JJ-archive1:before {
+  content: "\e9f0";
+}
+.JJ-area-graph:before {
+  content: "\e9f1";
+}
+.JJ-attachment1:before {
+  content: "\e9f2";
+}
+.JJ-awareness-ribbon:before {
+  content: "\e9f3";
+}
+.JJ-back-in-time:before {
+  content: "\e9f4";
+}
+.JJ-back:before {
+  content: "\e9f5";
+}
+.JJ-bar-graph:before {
+  content: "\e9f6";
+}
+.JJ-battery:before {
+  content: "\e9f7";
+}
+.JJ-beamed-note:before {
+  content: "\e9f8";
+}
+.JJ-bell1:before {
+  content: "\e9f9";
+}
+.JJ-blackboard:before {
+  content: "\e9fa";
+}
+.JJ-block:before {
+  content: "\e9fb";
+}
+.JJ-book3:before {
+  content: "\e9fc";
+}
+.JJ-bowl:before {
+  content: "\e9fd";
+}
+.JJ-box1:before {
+  content: "\e9fe";
+}
+.JJ-briefcase1:before {
+  content: "\e9ff";
+}
+.JJ-browser1:before {
+  content: "\ea00";
+}
+.JJ-brush:before {
+  content: "\ea01";
+}
+.JJ-bucket1:before {
+  content: "\ea02";
+}
+.JJ-cake:before {
+  content: "\ea03";
+}
+.JJ-calculator2:before {
+  content: "\ea04";
+}
+.JJ-calendar2:before {
+  content: "\ea05";
+}
+.JJ-camera2:before {
+  content: "\ea06";
+}
+.JJ-ccw:before {
+  content: "\ea07";
+}
+.JJ-chat1:before {
+  content: "\ea08";
+}
+.JJ-check:before {
+  content: "\ea09";
+}
+.JJ-circle-with-cross:before {
+  content: "\ea0a";
+}
+.JJ-circle-with-minus:before {
+  content: "\ea0b";
+}
+.JJ-circle-with-plus:before {
+  content: "\ea0c";
+}
+.JJ-circle:before {
+  content: "\ea0d";
+}
+.JJ-circular-graph:before {
+  content: "\ea0e";
+}
+.JJ-clapperboard:before {
+  content: "\ea0f";
+}
+.JJ-clipboard2:before {
+  content: "\ea10";
+}
+.JJ-clock3:before {
+  content: "\ea11";
+}
+.JJ-code:before {
+  content: "\ea12";
+}
+.JJ-cog1:before {
+  content: "\ea13";
+}
+.JJ-colours:before {
+  content: "\ea14";
+}
+.JJ-compass1:before {
+  content: "\ea15";
+}
+.JJ-copy1:before {
+  content: "\ea16";
+}
+.JJ-credit-card1:before {
+  content: "\ea17";
+}
+.JJ-credit:before {
+  content: "\ea18";
+}
+.JJ-cross1:before {
+  content: "\ea19";
+}
+.JJ-cup:before {
+  content: "\ea1a";
+}
+.JJ-cw:before {
+  content: "\ea1b";
+}
+.JJ-cycle:before {
+  content: "\ea1c";
+}
+.JJ-database1:before {
+  content: "\ea1d";
+}
+.JJ-dial-pad:before {
+  content: "\ea1e";
+}
+.JJ-direction:before {
+  content: "\ea1f";
+}
+.JJ-document:before {
+  content: "\ea20";
+}
+.JJ-documents:before {
+  content: "\ea21";
+}
+.JJ-drink1:before {
+  content: "\ea22";
+}
+.JJ-drive1:before {
+  content: "\ea23";
+}
+.JJ-drop:before {
+  content: "\ea24";
+}
+.JJ-edit:before {
+  content: "\ea25";
+}
+.JJ-email2:before {
+  content: "\ea26";
+}
+.JJ-emoji-happy:before {
+  content: "\ea27";
+}
+.JJ-emoji-neutral:before {
+  content: "\ea28";
+}
+.JJ-emoji-sad:before {
+  content: "\ea29";
+}
+.JJ-erase:before {
+  content: "\ea2a";
+}
+.JJ-eraser:before {
+  content: "\ea2b";
+}
+.JJ-export:before {
+  content: "\ea2c";
+}
+.JJ-eye1:before {
+  content: "\ea2d";
+}
+.JJ-feather:before {
+  content: "\ea2e";
+}
+.JJ-flag2:before {
+  content: "\ea2f";
+}
+.JJ-flash:before {
+  content: "\ea30";
+}
+.JJ-flashlight:before {
+  content: "\ea31";
+}
+.JJ-flat-brush:before {
+  content: "\ea32";
+}
+.JJ-folder-images:before {
+  content: "\ea33";
+}
+.JJ-folder-music:before {
+  content: "\ea34";
+}
+.JJ-folder-video:before {
+  content: "\ea35";
+}
+.JJ-folder2:before {
+  content: "\ea36";
+}
+.JJ-forward1:before {
+  content: "\ea37";
+}
+.JJ-funnel:before {
+  content: "\ea38";
+}
+.JJ-game-controller:before {
+  content: "\ea39";
+}
+.JJ-gauge:before {
+  content: "\ea3a";
+}
+.JJ-globe:before {
+  content: "\ea3b";
+}
+.JJ-graduation-cap:before {
+  content: "\ea3c";
+}
+.JJ-grid1:before {
+  content: "\ea3d";
+}
+.JJ-hair-cross:before {
+  content: "\ea3e";
+}
+.JJ-hand:before {
+  content: "\ea3f";
+}
+.JJ-heart-outlined:before {
+  content: "\ea40";
+}
+.JJ-heart2:before {
+  content: "\ea41";
+}
+.JJ-help-with-circle:before {
+  content: "\ea42";
+}
+.JJ-help:before {
+  content: "\ea43";
+}
+.JJ-home4:before {
+  content: "\ea44";
+}
+.JJ-hour-glass1:before {
+  content: "\ea45";
+}
+.JJ-image-inverted:before {
+  content: "\ea46";
+}
+.JJ-image2:before {
+  content: "\ea47";
+}
+.JJ-images1:before {
+  content: "\ea48";
+}
+.JJ-inbox:before {
+  content: "\ea49";
+}
+.JJ-infinity:before {
+  content: "\ea4a";
+}
+.JJ-info-with-circle:before {
+  content: "\ea4b";
+}
+.JJ-info1:before {
+  content: "\ea4c";
+}
+.JJ-key1:before {
+  content: "\ea4d";
+}
+.JJ-keyboard1:before {
+  content: "\ea4e";
+}
+.JJ-lab-flask:before {
+  content: "\ea4f";
+}
+.JJ-landline:before {
+  content: "\ea50";
+}
+.JJ-language:before {
+  content: "\ea51";
+}
+.JJ-laptop2:before {
+  content: "\ea52";
+}
+.JJ-leaf1:before {
+  content: "\ea53";
+}
+.JJ-level-down:before {
+  content: "\ea54";
+}
+.JJ-level-up:before {
+  content: "\ea55";
+}
+.JJ-lifebuoy1:before {
+  content: "\ea56";
+}
+.JJ-light-bulb:before {
+  content: "\ea57";
+}
+.JJ-light-down:before {
+  content: "\ea58";
+}
+.JJ-light-up:before {
+  content: "\ea59";
+}
+.JJ-line-graph:before {
+  content: "\ea5a";
+}
+.JJ-link1:before {
+  content: "\ea5b";
+}
+.JJ-list3:before {
+  content: "\ea5c";
+}
+.JJ-location-pin:before {
+  content: "\ea5d";
+}
+.JJ-location1:before {
+  content: "\ea5e";
+}
+.JJ-lock-open:before {
+  content: "\ea5f";
+}
+.JJ-lock2:before {
+  content: "\ea60";
+}
+.JJ-log-out:before {
+  content: "\ea61";
+}
+.JJ-login:before {
+  content: "\ea62";
+}
+.JJ-loop1:before {
+  content: "\ea63";
+}
+.JJ-magnet1:before {
+  content: "\ea64";
+}
+.JJ-magnifying-glass:before {
+  content: "\ea65";
+}
+.JJ-mail1:before {
+  content: "\ea66";
+}
+.JJ-man1:before {
+  content: "\ea67";
+}
+.JJ-map3:before {
+  content: "\ea68";
+}
+.JJ-mask:before {
+  content: "\ea69";
+}
+.JJ-medal:before {
+  content: "\ea6a";
+}
+.JJ-megaphone:before {
+  content: "\ea6b";
+}
+.JJ-menu1:before {
+  content: "\ea6c";
+}
+.JJ-message:before {
+  content: "\ea6d";
+}
+.JJ-mic1:before {
+  content: "\ea6e";
+}
+.JJ-minus1:before {
+  content: "\ea6f";
+}
+.JJ-mobile1:before {
+  content: "\ea70";
+}
+.JJ-modern-mic:before {
+  content: "\ea71";
+}
+.JJ-moon:before {
+  content: "\ea72";
+}
+.JJ-mouse:before {
+  content: "\ea73";
+}
+.JJ-music1:before {
+  content: "\ea74";
+}
+.JJ-network:before {
+  content: "\ea75";
+}
+.JJ-new-message:before {
+  content: "\ea76";
+}
+.JJ-new:before {
+  content: "\ea77";
+}
+.JJ-news:before {
+  content: "\ea78";
+}
+.JJ-note:before {
+  content: "\ea79";
+}
+.JJ-notification1:before {
+  content: "\ea7a";
+}
+.JJ-old-mobile:before {
+  content: "\ea7b";
+}
+.JJ-old-phone:before {
+  content: "\ea7c";
+}
+.JJ-palette:before {
+  content: "\ea7d";
+}
+.JJ-paper-plane:before {
+  content: "\ea7e";
+}
+.JJ-pencil3:before {
+  content: "\ea7f";
+}
+.JJ-phone2:before {
+  content: "\ea80";
+}
+.JJ-pie-chart1:before {
+  content: "\ea81";
+}
+.JJ-pin:before {
+  content: "\ea82";
+}
+.JJ-plus1:before {
+  content: "\ea83";
+}
+.JJ-popup:before {
+  content: "\ea84";
+}
+.JJ-power-plug:before {
+  content: "\ea85";
+}
+.JJ-price-ribbon:before {
+  content: "\ea86";
+}
+.JJ-price-tag1:before {
+  content: "\ea87";
+}
+.JJ-print:before {
+  content: "\ea88";
+}
+.JJ-progress-empty:before {
+  content: "\ea89";
+}
+.JJ-progress-full:before {
+  content: "\ea8a";
+}
+.JJ-progress-one:before {
+  content: "\ea8b";
+}
+.JJ-progress-two:before {
+  content: "\ea8c";
+}
+.JJ-publish:before {
+  content: "\ea8d";
+}
+.JJ-quote:before {
+  content: "\ea8e";
+}
+.JJ-radio:before {
+  content: "\ea8f";
+}
+.JJ-reply-all:before {
+  content: "\ea90";
+}
+.JJ-reply1:before {
+  content: "\ea91";
+}
+.JJ-retweet:before {
+  content: "\ea92";
+}
+.JJ-rocket1:before {
+  content: "\ea93";
+}
+.JJ-round-brush:before {
+  content: "\ea94";
+}
+.JJ-rss1:before {
+  content: "\ea95";
+}
+.JJ-ruler:before {
+  content: "\ea96";
+}
+.JJ-scissors1:before {
+  content: "\ea97";
+}
+.JJ-share-alternitive:before {
+  content: "\ea98";
+}
+.JJ-share3:before {
+  content: "\ea99";
+}
+.JJ-shareable:before {
+  content: "\ea9a";
+}
+.JJ-shield1:before {
+  content: "\ea9b";
+}
+.JJ-shop:before {
+  content: "\ea9c";
+}
+.JJ-shopping-bag:before {
+  content: "\ea9d";
+}
+.JJ-shopping-basket:before {
+  content: "\ea9e";
+}
+.JJ-shopping-cart:before {
+  content: "\ea9f";
+}
+.JJ-shuffle1:before {
+  content: "\eaa0";
+}
+.JJ-signal:before {
+  content: "\eaa1";
+}
+.JJ-sound-mix:before {
+  content: "\eaa2";
+}
+.JJ-sports-club:before {
+  content: "\eaa3";
+}
+.JJ-spreadsheet:before {
+  content: "\eaa4";
+}
+.JJ-squared-cross:before {
+  content: "\eaa5";
+}
+.JJ-squared-minus:before {
+  content: "\eaa6";
+}
+.JJ-squared-plus:before {
+  content: "\eaa7";
+}
+.JJ-star-outlined:before {
+  content: "\eaa8";
+}
+.JJ-star1:before {
+  content: "\eaa9";
+}
+.JJ-stopwatch2:before {
+  content: "\eaaa";
+}
+.JJ-suitcase:before {
+  content: "\eaab";
+}
+.JJ-swap:before {
+  content: "\eaac";
+}
+.JJ-sweden:before {
+  content: "\eaad";
+}
+.JJ-switch2:before {
+  content: "\eaae";
+}
+.JJ-tablet2:before {
+  content: "\eaaf";
+}
+.JJ-tag1:before {
+  content: "\eab0";
+}
+.JJ-text-document-inverted:before {
+  content: "\eab1";
+}
+.JJ-text-document:before {
+  content: "\eab2";
+}
+.JJ-text:before {
+  content: "\eab3";
+}
+.JJ-thermometer:before {
+  content: "\eab4";
+}
+.JJ-thumbs-down:before {
+  content: "\eab5";
+}
+.JJ-thumbs-up:before {
+  content: "\eab6";
+}
+.JJ-thunder-cloud:before {
+  content: "\eab7";
+}
+.JJ-ticket1:before {
+  content: "\eab8";
+}
+.JJ-time-slot:before {
+  content: "\eab9";
+}
+.JJ-tools:before {
+  content: "\eaba";
+}
+.JJ-traffic-cone:before {
+  content: "\eabb";
+}
+.JJ-tree1:before {
+  content: "\eabc";
+}
+.JJ-trophy1:before {
+  content: "\eabd";
+}
+.JJ-tv1:before {
+  content: "\eabe";
+}
+.JJ-typing:before {
+  content: "\eabf";
+}
+.JJ-unread:before {
+  content: "\eac0";
+}
+.JJ-untag:before {
+  content: "\eac1";
+}
+.JJ-user3:before {
+  content: "\eac2";
+}
+.JJ-users3:before {
+  content: "\eac3";
+}
+.JJ-v-card:before {
+  content: "\eac4";
+}
+.JJ-video:before {
+  content: "\eac5";
+}
+.JJ-vinyl:before {
+  content: "\eac6";
+}
+.JJ-voicemail:before {
+  content: "\eac7";
+}
+.JJ-wallet:before {
+  content: "\eac8";
+}
+.JJ-water:before {
+  content: "\eac9";
+}
+.JJ-500px-with-circle:before {
+  content: "\eaca";
+}
+.JJ-500px1:before {
+  content: "\eacb";
+}
+.JJ-basecamp1:before {
+  content: "\eacc";
+}
+.JJ-behance1:before {
+  content: "\eacd";
+}
+.JJ-creative-cloud:before {
+  content: "\eace";
+}
+.JJ-dropbox1:before {
+  content: "\eacf";
+}
+.JJ-evernote:before {
+  content: "\ead0";
+}
+.JJ-flattr1:before {
+  content: "\ead1";
+}
+.JJ-foursquare1:before {
+  content: "\ead2";
+}
+.JJ-google-drive1:before {
+  content: "\ead3";
+}
+.JJ-google-hangouts:before {
+  content: "\ead4";
+}
+.JJ-grooveshark:before {
+  content: "\ead5";
+}
+.JJ-icloud:before {
+  content: "\ead6";
+}
+.JJ-mixi:before {
+  content: "\ead7";
+}
+.JJ-onedrive1:before {
+  content: "\ead8";
+}
+.JJ-paypal1:before {
+  content: "\ead9";
+}
+.JJ-picasa:before {
+  content: "\eada";
+}
+.JJ-qq:before {
+  content: "\eadb";
+}
+.JJ-rdio-with-circle:before {
+  content: "\eadc";
+}
+.JJ-renren1:before {
+  content: "\eadd";
+}
+.JJ-scribd:before {
+  content: "\eade";
+}
+.JJ-sina-weibo1:before {
+  content: "\eadf";
+}
+.JJ-skype-with-circle:before {
+  content: "\eae0";
+}
+.JJ-skype1:before {
+  content: "\eae1";
+}
+.JJ-slideshare:before {
+  content: "\eae2";
+}
+.JJ-smashing:before {
+  content: "\eae3";
+}
+.JJ-soundcloud1:before {
+  content: "\eae4";
+}
+.JJ-spotify-with-circle:before {
+  content: "\eae5";
+}
+.JJ-spotify1:before {
+  content: "\eae6";
+}
+.JJ-swarm:before {
+  content: "\eae7";
+}
+.JJ-vine-with-circle:before {
+  content: "\eae8";
+}
+.JJ-vine1:before {
+  content: "\eae9";
+}
+.JJ-vk-alternitive:before {
+  content: "\eaea";
+}
+.JJ-vk-with-circle:before {
+  content: "\eaeb";
+}
+.JJ-vk1:before {
+  content: "\eaec";
+}
+.JJ-xing-with-circle:before {
+  content: "\eaed";
+}
+.JJ-xing1:before {
+  content: "\eaee";
+}
+.JJ-yelp1:before {
+  content: "\eaef";
+}
+.JJ-dribbble-with-circle:before {
+  content: "\eaf0";
+}
+.JJ-dribbble1:before {
+  content: "\eaf1";
+}
+.JJ-facebook-with-circle:before {
+  content: "\eaf2";
+}
+.JJ-facebook1:before {
+  content: "\eaf3";
+}
+.JJ-flickr-with-circle:before {
+  content: "\eaf4";
+}
+.JJ-flickr1:before {
+  content: "\eaf5";
+}
+.JJ-github-with-circle:before {
+  content: "\eaf6";
+}
+.JJ-github1:before {
+  content: "\eaf7";
+}
+.JJ-google-with-circle:before {
+  content: "\eaf8";
+}
+.JJ-google1:before {
+  content: "\eaf9";
+}
+.JJ-instagram-with-circle:before {
+  content: "\eafa";
+}
+.JJ-instagram1:before {
+  content: "\eafb";
+}
+.JJ-lastfm-with-circle:before {
+  content: "\eafc";
+}
+.JJ-lastfm1:before {
+  content: "\eafd";
+}
+.JJ-linkedin-with-circle:before {
+  content: "\eafe";
+}
+.JJ-linkedin1:before {
+  content: "\eaff";
+}
+.JJ-pinterest-with-circle:before {
+  content: "\eb00";
+}
+.JJ-pinterest1:before {
+  content: "\eb01";
+}
+.JJ-rdio:before {
+  content: "\eb02";
+}
+.JJ-stumbleupon-with-circle:before {
+  content: "\eb03";
+}
+.JJ-stumbleupon1:before {
+  content: "\eb04";
+}
+.JJ-tumblr-with-circle:before {
+  content: "\eb05";
+}
+.JJ-tumblr1:before {
+  content: "\eb06";
+}
+.JJ-twitter-with-circle:before {
+  content: "\eb07";
+}
+.JJ-twitter1:before {
+  content: "\eb08";
+}
+.JJ-vimeo-with-circle:before {
+  content: "\eb09";
+}
+.JJ-vimeo1:before {
+  content: "\eb0a";
+}
+.JJ-youtube-with-circle:before {
+  content: "\eb0b";
+}
+.JJ-youtube1:before {
+  content: "\eb0c";
+}
+.JJ-number:before {
+  content: "\eb0d";
+}
+.JJ-number1:before {
+  content: "\eb0e";
+}
+.JJ-number2:before {
+  content: "\eb0f";
+}
+.JJ-number3:before {
+  content: "\eb10";
+}
+.JJ-number4:before {
+  content: "\eb11";
+}
+.JJ-number5:before {
+  content: "\eb12";
+}
+.JJ-number6:before {
+  content: "\eb13";
+}
+.JJ-number7:before {
+  content: "\eb14";
+}
+.JJ-number8:before {
+  content: "\eb15";
+}
+.JJ-number9:before {
+  content: "\eb16";
+}
+.JJ-number10:before {
+  content: "\eb17";
+}
+.JJ-number11:before {
+  content: "\eb18";
+}
+.JJ-number12:before {
+  content: "\eb19";
+}
+.JJ-number13:before {
+  content: "\eb1a";
+}
+.JJ-number14:before {
+  content: "\eb1b";
+}
+.JJ-number15:before {
+  content: "\eb1c";
+}
+.JJ-number16:before {
+  content: "\eb1d";
+}
+.JJ-number17:before {
+  content: "\eb1e";
+}
+.JJ-number18:before {
+  content: "\eb1f";
+}
+.JJ-number19:before {
+  content: "\eb20";
+}
+.JJ-quote1:before {
+  content: "\eb21";
+}
+.JJ-quote2:before {
+  content: "\eb22";
+}
+.JJ-tag2:before {
+  content: "\eb23";
+}
+.JJ-tag3:before {
+  content: "\eb24";
+}
+.JJ-link2:before {
+  content: "\eb25";
+}
+.JJ-link3:before {
+  content: "\eb26";
+}
+.JJ-cabinet:before {
+  content: "\eb27";
+}
+.JJ-cabinet1:before {
+  content: "\eb28";
+}
+.JJ-calendar3:before {
+  content: "\eb29";
+}
+.JJ-calendar4:before {
+  content: "\eb2a";
+}
+.JJ-calendar5:before {
+  content: "\eb2b";
+}
+.JJ-file1:before {
+  content: "\eb2c";
+}
+.JJ-file2:before {
+  content: "\eb2d";
+}
+.JJ-file3:before {
+  content: "\eb2e";
+}
+.JJ-files1:before {
+  content: "\eb2f";
+}
+.JJ-phone3:before {
+  content: "\eb30";
+}
+.JJ-tablet3:before {
+  content: "\eb31";
+}
+.JJ-window1:before {
+  content: "\eb32";
+}
+.JJ-monitor:before {
+  content: "\eb33";
+}
+.JJ-ipod:before {
+  content: "\eb34";
+}
+.JJ-tv2:before {
+  content: "\eb35";
+}
+.JJ-camera3:before {
+  content: "\eb36";
+}
+.JJ-camera4:before {
+  content: "\eb37";
+}
+.JJ-camera5:before {
+  content: "\eb38";
+}
+.JJ-film1:before {
+  content: "\eb39";
+}
+.JJ-film2:before {
+  content: "\eb3a";
+}
+.JJ-film3:before {
+  content: "\eb3b";
+}
+.JJ-microphone1:before {
+  content: "\eb3c";
+}
+.JJ-microphone2:before {
+  content: "\eb3d";
+}
+.JJ-microphone3:before {
+  content: "\eb3e";
+}
+.JJ-drink2:before {
+  content: "\eb3f";
+}
+.JJ-drink3:before {
+  content: "\eb40";
+}
+.JJ-drink4:before {
+  content: "\eb41";
+}
+.JJ-drink5:before {
+  content: "\eb42";
+}
+.JJ-coffee1:before {
+  content: "\eb43";
+}
+.JJ-mug2:before {
+  content: "\eb44";
+}
+.JJ-icecream:before {
+  content: "\eb45";
+}
+.JJ-cake1:before {
+  content: "\eb46";
+}
+.JJ-inbox1:before {
+  content: "\eb47";
+}
+.JJ-download5:before {
+  content: "\eb48";
+}
+.JJ-upload4:before {
+  content: "\eb49";
+}
+.JJ-inbox2:before {
+  content: "\eb4a";
+}
+.JJ-checkmark3:before {
+  content: "\eb4b";
+}
+.JJ-checkmark4:before {
+  content: "\eb4c";
+}
+.JJ-cancel:before {
+  content: "\eb4d";
+}
+.JJ-cancel1:before {
+  content: "\eb4e";
+}
+.JJ-plus2:before {
+  content: "\eb4f";
+}
+.JJ-plus3:before {
+  content: "\eb50";
+}
+.JJ-minus2:before {
+  content: "\eb51";
+}
+.JJ-minus3:before {
+  content: "\eb52";
+}
+.JJ-notice:before {
+  content: "\eb53";
+}
+.JJ-notice1:before {
+  content: "\eb54";
+}
+.JJ-cog2:before {
+  content: "\eb55";
+}
+.JJ-cogs1:before {
+  content: "\eb56";
+}
+.JJ-cog3:before {
+  content: "\eb57";
+}
+.JJ-warning2:before {
+  content: "\eb58";
+}
+.JJ-health1:before {
+  content: "\eb59";
+}
+.JJ-suitcase1:before {
+  content: "\eb5a";
+}
+.JJ-suitcase2:before {
+  content: "\eb5b";
+}
+.JJ-suitcase3:before {
+  content: "\eb5c";
+}
+.JJ-picture:before {
+  content: "\eb5d";
+}
+.JJ-pictures:before {
+  content: "\eb5e";
+}
+.JJ-pictures1:before {
+  content: "\eb5f";
+}
+.JJ-android1:before {
+  content: "\eb60";
+}
+.JJ-marvin:before {
+  content: "\eb61";
+}
+.JJ-pacman1:before {
+  content: "\eb62";
+}
+.JJ-cassette:before {
+  content: "\eb63";
+}
+.JJ-watch:before {
+  content: "\eb64";
+}
+.JJ-chronometer:before {
+  content: "\eb65";
+}
+.JJ-watch1:before {
+  content: "\eb66";
+}
+.JJ-alarmclock:before {
+  content: "\eb67";
+}
+.JJ-time:before {
+  content: "\eb68";
+}
+.JJ-time1:before {
+  content: "\eb69";
+}
+.JJ-headphones1:before {
+  content: "\eb6a";
+}
+.JJ-wallet1:before {
+  content: "\eb6b";
+}
+.JJ-checkmark5:before {
+  content: "\eb6c";
+}
+.JJ-cancel2:before {
+  content: "\eb6d";
+}
+.JJ-eye2:before {
+  content: "\eb6e";
+}
+.JJ-position:before {
+  content: "\eb6f";
+}
+.JJ-sitemap:before {
+  content: "\eb70";
+}
+.JJ-sitemap1:before {
+  content: "\eb71";
+}
+.JJ-cloud3:before {
+  content: "\eb72";
+}
+.JJ-upload5:before {
+  content: "\eb73";
+}
+.JJ-chart1:before {
+  content: "\eb74";
+}
+.JJ-chart2:before {
+  content: "\eb75";
+}
+.JJ-chart3:before {
+  content: "\eb76";
+}
+.JJ-chart4:before {
+  content: "\eb77";
+}
+.JJ-chart5:before {
+  content: "\eb78";
+}
+.JJ-chart6:before {
+  content: "\eb79";
+}
+.JJ-location3:before {
+  content: "\eb7a";
+}
+.JJ-download6:before {
+  content: "\eb7b";
+}
+.JJ-basket:before {
+  content: "\eb7c";
+}
+.JJ-folder3:before {
+  content: "\eb7d";
+}
+.JJ-gamepad:before {
+  content: "\eb7e";
+}
+.JJ-alarm1:before {
+  content: "\eb7f";
+}
+.JJ-alarm-cancel:before {
+  content: "\eb80";
+}
+.JJ-phone4:before {
+  content: "\eb81";
+}
+.JJ-phone5:before {
+  content: "\eb82";
+}
+.JJ-image3:before {
+  content: "\eb83";
+}
+.JJ-open:before {
+  content: "\eb84";
+}
+.JJ-sale:before {
+  content: "\eb85";
+}
+.JJ-direction1:before {
+  content: "\eb86";
+}
+.JJ-map4:before {
+  content: "\eb87";
+}
+.JJ-trashcan1:before {
+  content: "\eb88";
+}
+.JJ-vote:before {
+  content: "\eb89";
+}
+.JJ-graduate:before {
+  content: "\eb8a";
+}
+.JJ-lab2:before {
+  content: "\eb8b";
+}
+.JJ-tie:before {
+  content: "\eb8c";
+}
+.JJ-football:before {
+  content: "\eb8d";
+}
+.JJ-eightball:before {
+  content: "\eb8e";
+}
+.JJ-bowling:before {
+  content: "\eb8f";
+}
+.JJ-bowlingpin:before {
+  content: "\eb90";
+}
+.JJ-baseball:before {
+  content: "\eb91";
+}
+.JJ-soccer:before {
+  content: "\eb92";
+}
+.JJ-3dglasses:before {
+  content: "\eb93";
+}
+.JJ-microwave:before {
+  content: "\eb94";
+}
+.JJ-refrigerator:before {
+  content: "\eb95";
+}
+.JJ-oven:before {
+  content: "\eb96";
+}
+.JJ-washingmachine:before {
+  content: "\eb97";
+}
+.JJ-mouse1:before {
+  content: "\eb98";
+}
+.JJ-smiley:before {
+  content: "\eb99";
+}
+.JJ-sad1:before {
+  content: "\eb9a";
+}
+.JJ-mute1:before {
+  content: "\eb9b";
+}
+.JJ-hand1:before {
+  content: "\eb9c";
+}
+.JJ-radio1:before {
+  content: "\eb9d";
+}
+.JJ-satellite:before {
+  content: "\eb9e";
+}
+.JJ-medal1:before {
+  content: "\eb9f";
+}
+.JJ-medal2:before {
+  content: "\eba0";
+}
+.JJ-switch3:before {
+  content: "\eba1";
+}
+.JJ-key3:before {
+  content: "\eba2";
+}
+.JJ-cord:before {
+  content: "\eba3";
+}
+.JJ-locked:before {
+  content: "\eba4";
+}
+.JJ-unlocked3:before {
+  content: "\eba5";
+}
+.JJ-locked1:before {
+  content: "\eba6";
+}
+.JJ-unlocked4:before {
+  content: "\eba7";
+}
+.JJ-magnifier:before {
+  content: "\eba8";
+}
+.JJ-zoomin1:before {
+  content: "\eba9";
+}
+.JJ-zoomout1:before {
+  content: "\ebaa";
+}
+.JJ-stack2:before {
+  content: "\ebab";
+}
+.JJ-stack3:before {
+  content: "\ebac";
+}
+.JJ-stack4:before {
+  content: "\ebad";
+}
+.JJ-davidstar:before {
+  content: "\ebae";
+}
+.JJ-cross2:before {
+  content: "\ebaf";
+}
+.JJ-moonandstar:before {
+  content: "\ebb0";
+}
+.JJ-transformers:before {
+  content: "\ebb1";
+}
+.JJ-batman:before {
+  content: "\ebb2";
+}
+.JJ-spaceinvaders:before {
+  content: "\ebb3";
+}
+.JJ-skeletor:before {
+  content: "\ebb4";
+}
+.JJ-lamp:before {
+  content: "\ebb5";
+}
+.JJ-lamp1:before {
+  content: "\ebb6";
+}
+.JJ-umbrella:before {
+  content: "\ebb7";
+}
+.JJ-streetlight:before {
+  content: "\ebb8";
+}
+.JJ-bomb:before {
+  content: "\ebb9";
+}
+.JJ-archive2:before {
+  content: "\ebba";
+}
+.JJ-battery1:before {
+  content: "\ebbb";
+}
+.JJ-battery2:before {
+  content: "\ebbc";
+}
+.JJ-battery3:before {
+  content: "\ebbd";
+}
+.JJ-battery4:before {
+  content: "\ebbe";
+}
+.JJ-battery5:before {
+  content: "\ebbf";
+}
+.JJ-megaphone1:before {
+  content: "\ebc0";
+}
+.JJ-megaphone2:before {
+  content: "\ebc1";
+}
+.JJ-patch:before {
+  content: "\ebc2";
+}
+.JJ-pil:before {
+  content: "\ebc3";
+}
+.JJ-injection:before {
+  content: "\ebc4";
+}
+.JJ-thermometer1:before {
+  content: "\ebc5";
+}
+.JJ-lamp2:before {
+  content: "\ebc6";
+}
+.JJ-lamp3:before {
+  content: "\ebc7";
+}
+.JJ-lamp4:before {
+  content: "\ebc8";
+}
+.JJ-cube1:before {
+  content: "\ebc9";
+}
+.JJ-box2:before {
+  content: "\ebca";
+}
+.JJ-box3:before {
+  content: "\ebcb";
+}
+.JJ-diamond1:before {
+  content: "\ebcc";
+}
+.JJ-bag1:before {
+  content: "\ebcd";
+}
+.JJ-moneybag:before {
+  content: "\ebce";
+}
+.JJ-grid2:before {
+  content: "\ebcf";
+}
+.JJ-grid3:before {
+  content: "\ebd0";
+}
+.JJ-list4:before {
+  content: "\ebd1";
+}
+.JJ-list5:before {
+  content: "\ebd2";
+}
+.JJ-ruler1:before {
+  content: "\ebd3";
+}
+.JJ-ruler2:before {
+  content: "\ebd4";
+}
+.JJ-layout:before {
+  content: "\ebd5";
+}
+.JJ-layout1:before {
+  content: "\ebd6";
+}
+.JJ-layout2:before {
+  content: "\ebd7";
+}
+.JJ-layout3:before {
+  content: "\ebd8";
+}
+.JJ-layout4:before {
+  content: "\ebd9";
+}
+.JJ-layout5:before {
+  content: "\ebda";
+}
+.JJ-layout6:before {
+  content: "\ebdb";
+}
+.JJ-layout7:before {
+  content: "\ebdc";
+}
+.JJ-layout8:before {
+  content: "\ebdd";
+}
+.JJ-layout9:before {
+  content: "\ebde";
+}
+.JJ-layout10:before {
+  content: "\ebdf";
+}
+.JJ-layout11:before {
+  content: "\ebe0";
+}
+.JJ-layout12:before {
+  content: "\ebe1";
+}
+.JJ-layout13:before {
+  content: "\ebe2";
+}
+.JJ-tools1:before {
+  content: "\ebe3";
+}
+.JJ-screwdriver:before {
+  content: "\ebe4";
+}
+.JJ-paint:before {
+  content: "\ebe5";
+}
+.JJ-hammer1:before {
+  content: "\ebe6";
+}
+.JJ-brush1:before {
+  content: "\ebe7";
+}
+.JJ-pen1:before {
+  content: "\ebe8";
+}
+.JJ-chat2:before {
+  content: "\ebe9";
+}
+.JJ-comments:before {
+  content: "\ebea";
+}
+.JJ-chat3:before {
+  content: "\ebeb";
+}
+.JJ-chat4:before {
+  content: "\ebec";
+}
+.JJ-volume1:before {
+  content: "\ebed";
+}
+.JJ-volume2:before {
+  content: "\ebee";
+}
+.JJ-volume3:before {
+  content: "\ebef";
+}
+.JJ-equalizer1:before {
+  content: "\ebf0";
+}
+.JJ-resize:before {
+  content: "\ebf1";
+}
+.JJ-resize1:before {
+  content: "\ebf2";
+}
+.JJ-stretch:before {
+  content: "\ebf3";
+}
+.JJ-narrow:before {
+  content: "\ebf4";
+}
+.JJ-resize2:before {
+  content: "\ebf5";
+}
+.JJ-download7:before {
+  content: "\ebf6";
+}
+.JJ-calculator3:before {
+  content: "\ebf7";
+}
+.JJ-library1:before {
+  content: "\ebf8";
+}
+.JJ-auction:before {
+  content: "\ebf9";
+}
+.JJ-justice:before {
+  content: "\ebfa";
+}
+.JJ-stats:before {
+  content: "\ebfb";
+}
+.JJ-stats1:before {
+  content: "\ebfc";
+}
+.JJ-attachment2:before {
+  content: "\ebfd";
+}
+.JJ-hourglass:before {
+  content: "\ebfe";
+}
+.JJ-abacus:before {
+  content: "\ebff";
+}
+.JJ-pencil4:before {
+  content: "\ec00";
+}
+.JJ-pen2:before {
+  content: "\ec01";
+}
+.JJ-pin1:before {
+  content: "\ec02";
+}
+.JJ-pin2:before {
+  content: "\ec03";
+}
+.JJ-discout:before {
+  content: "\ec04";
+}
+.JJ-edit1:before {
+  content: "\ec05";
+}
+.JJ-scissors2:before {
+  content: "\ec06";
+}
+.JJ-profile1:before {
+  content: "\ec07";
+}
+.JJ-profile2:before {
+  content: "\ec08";
+}
+.JJ-profile3:before {
+  content: "\ec09";
+}
+.JJ-rotate:before {
+  content: "\ec0a";
+}
+.JJ-rotate1:before {
+  content: "\ec0b";
+}
+.JJ-reply2:before {
+  content: "\ec0c";
+}
+.JJ-forward4:before {
+  content: "\ec0d";
+}
+.JJ-retweet1:before {
+  content: "\ec0e";
+}
+.JJ-shuffle2:before {
+  content: "\ec0f";
+}
+.JJ-loop3:before {
+  content: "\ec10";
+}
+.JJ-crop2:before {
+  content: "\ec11";
+}
+.JJ-square:before {
+  content: "\ec12";
+}
+.JJ-square1:before {
+  content: "\ec13";
+}
+.JJ-circle1:before {
+  content: "\ec14";
+}
+.JJ-dollar:before {
+  content: "\ec15";
+}
+.JJ-dollar1:before {
+  content: "\ec16";
+}
+.JJ-coins:before {
+  content: "\ec17";
+}
+.JJ-pig:before {
+  content: "\ec18";
+}
+.JJ-bookmark3:before {
+  content: "\ec19";
+}
+.JJ-bookmark4:before {
+  content: "\ec1a";
+}
+.JJ-addressbook:before {
+  content: "\ec1b";
+}
+.JJ-addressbook1:before {
+  content: "\ec1c";
+}
+.JJ-safe:before {
+  content: "\ec1d";
+}
+.JJ-envelope1:before {
+  content: "\ec1e";
+}
+.JJ-envelope2:before {
+  content: "\ec1f";
+}
+.JJ-radioactive:before {
+  content: "\ec20";
+}
+.JJ-music2:before {
+  content: "\ec21";
+}
+.JJ-presentation:before {
+  content: "\ec22";
+}
+.JJ-male:before {
+  content: "\ec23";
+}
+.JJ-female:before {
+  content: "\ec24";
+}
+.JJ-aids:before {
+  content: "\ec25";
+}
+.JJ-heart3:before {
+  content: "\ec26";
+}
+.JJ-info2:before {
+  content: "\ec27";
+}
+.JJ-info3:before {
+  content: "\ec28";
+}
+.JJ-piano:before {
+  content: "\ec29";
+}
+.JJ-rain:before {
+  content: "\ec2a";
+}
+.JJ-snow:before {
+  content: "\ec2b";
+}
+.JJ-lightning:before {
+  content: "\ec2c";
+}
+.JJ-sun2:before {
+  content: "\ec2d";
+}
+.JJ-moon1:before {
+  content: "\ec2e";
+}
+.JJ-cloudy:before {
+  content: "\ec2f";
+}
+.JJ-cloudy1:before {
+  content: "\ec30";
+}
+.JJ-car:before {
+  content: "\ec31";
+}
+.JJ-bike:before {
+  content: "\ec32";
+}
+.JJ-truck1:before {
+  content: "\ec33";
+}
+.JJ-bus:before {
+  content: "\ec34";
+}
+.JJ-bike1:before {
+  content: "\ec35";
+}
+.JJ-plane:before {
+  content: "\ec36";
+}
+.JJ-paperplane:before {
+  content: "\ec37";
+}
+.JJ-rocket2:before {
+  content: "\ec38";
+}
+.JJ-book4:before {
+  content: "\ec39";
+}
+.JJ-book5:before {
+  content: "\ec3a";
+}
+.JJ-barcode1:before {
+  content: "\ec3b";
+}
+.JJ-barcode2:before {
+  content: "\ec3c";
+}
+.JJ-expand:before {
+  content: "\ec3d";
+}
+.JJ-collapse:before {
+  content: "\ec3e";
+}
+.JJ-popout:before {
+  content: "\ec3f";
+}
+.JJ-popin:before {
+  content: "\ec40";
+}
+.JJ-target1:before {
+  content: "\ec41";
+}
+.JJ-badge:before {
+  content: "\ec42";
+}
+.JJ-badge1:before {
+  content: "\ec43";
+}
+.JJ-ticket2:before {
+  content: "\ec44";
+}
+.JJ-ticket3:before {
+  content: "\ec45";
+}
+.JJ-ticket4:before {
+  content: "\ec46";
+}
+.JJ-microphone4:before {
+  content: "\ec47";
+}
+.JJ-cone:before {
+  content: "\ec48";
+}
+.JJ-blocked1:before {
+  content: "\ec49";
+}
+.JJ-stop1:before {
+  content: "\ec4a";
+}
+.JJ-keyboard2:before {
+  content: "\ec4b";
+}
+.JJ-keyboard3:before {
+  content: "\ec4c";
+}
+.JJ-radio2:before {
+  content: "\ec4d";
+}
+.JJ-printer2:before {
+  content: "\ec4e";
+}
+.JJ-checked:before {
+  content: "\ec4f";
+}
+.JJ-error:before {
+  content: "\ec50";
+}
+.JJ-add:before {
+  content: "\ec51";
+}
+.JJ-minus4:before {
+  content: "\ec52";
+}
+.JJ-alert:before {
+  content: "\ec53";
+}
+.JJ-pictures2:before {
+  content: "\ec54";
+}
+.JJ-atom1:before {
+  content: "\ec55";
+}
+.JJ-eyedropper2:before {
+  content: "\ec56";
+}
+.JJ-globe1:before {
+  content: "\ec57";
+}
+.JJ-globe2:before {
+  content: "\ec58";
+}
+.JJ-shipping:before {
+  content: "\ec59";
+}
+.JJ-yingyang:before {
+  content: "\ec5a";
+}
+.JJ-compass3:before {
+  content: "\ec5b";
+}
+.JJ-zip:before {
+  content: "\ec5c";
+}
+.JJ-zip1:before {
+  content: "\ec5d";
+}
+.JJ-anchor:before {
+  content: "\ec5e";
+}
+.JJ-lockedheart:before {
+  content: "\ec5f";
+}
+.JJ-magnet2:before {
+  content: "\ec60";
+}
+.JJ-navigation:before {
+  content: "\ec61";
+}
+.JJ-tags:before {
+  content: "\ec62";
+}
+.JJ-heart4:before {
+  content: "\ec63";
+}
+.JJ-heart5:before {
+  content: "\ec64";
+}
+.JJ-usb:before {
+  content: "\ec65";
+}
+.JJ-clipboard3:before {
+  content: "\ec66";
+}
+.JJ-clipboard4:before {
+  content: "\ec67";
+}
+.JJ-clipboard5:before {
+  content: "\ec68";
+}
+.JJ-switch4:before {
+  content: "\ec69";
+}
+.JJ-ruler3:before {
+  content: "\ec6a";
+}
+.JJ-mobile3:before {
+  content: "\e000";
+}
+.JJ-laptop3:before {
+  content: "\e001";
+}
+.JJ-desktop:before {
+  content: "\e002";
+}
+.JJ-tablet4:before {
+  content: "\e003";
+}
+.JJ-phone6:before {
+  content: "\e004";
+}
+.JJ-document1:before {
+  content: "\e005";
+}
+.JJ-documents1:before {
+  content: "\e006";
+}
+.JJ-search2:before {
+  content: "\e007";
+}
+.JJ-clipboard6:before {
+  content: "\e008";
+}
+.JJ-newspaper2:before {
+  content: "\e009";
+}
+.JJ-notebook:before {
+  content: "\e00a";
+}
+.JJ-book-open:before {
+  content: "\e00b";
+}
+.JJ-browser2:before {
+  content: "\e00c";
+}
+.JJ-calendar6:before {
+  content: "\e00d";
+}
+.JJ-presentation1:before {
+  content: "\e00e";
+}
+.JJ-picture1:before {
+  content: "\e00f";
+}
+.JJ-pictures3:before {
+  content: "\e010";
+}
+.JJ-video1:before {
+  content: "\e011";
+}
+.JJ-camera6:before {
+  content: "\e012";
+}
+.JJ-printer3:before {
+  content: "\e013";
+}
+.JJ-toolbox:before {
+  content: "\e014";
+}
+.JJ-briefcase2:before {
+  content: "\e015";
+}
+.JJ-wallet2:before {
+  content: "\e016";
+}
+.JJ-gift1:before {
+  content: "\e017";
+}
+.JJ-bargraph:before {
+  content: "\e018";
+}
+.JJ-grid4:before {
+  content: "\e019";
+}
+.JJ-expand1:before {
+  content: "\e01a";
+}
+.JJ-focus:before {
+  content: "\e01b";
+}
+.JJ-edit2:before {
+  content: "\e01c";
+}
+.JJ-adjustments:before {
+  content: "\e01d";
+}
+.JJ-ribbon:before {
+  content: "\e01e";
+}
+.JJ-hourglass1:before {
+  content: "\e01f";
+}
+.JJ-lock3:before {
+  content: "\e020";
+}
+.JJ-megaphone3:before {
+  content: "\e021";
+}
+.JJ-shield2:before {
+  content: "\e022";
+}
+.JJ-trophy2:before {
+  content: "\e023";
+}
+.JJ-flag3:before {
+  content: "\e024";
+}
+.JJ-map5:before {
+  content: "\e025";
+}
+.JJ-puzzle:before {
+  content: "\e026";
+}
+.JJ-basket1:before {
+  content: "\e027";
+}
+.JJ-envelope3:before {
+  content: "\e028";
+}
+.JJ-streetsign:before {
+  content: "\e029";
+}
+.JJ-telescope:before {
+  content: "\e02a";
+}
+.JJ-gears:before {
+  content: "\e02b";
+}
+.JJ-key4:before {
+  content: "\e02c";
+}
+.JJ-paperclip1:before {
+  content: "\e02d";
+}
+.JJ-attachment3:before {
+  content: "\e02e";
+}
+.JJ-pricetags:before {
+  content: "\e02f";
+}
+.JJ-lightbulb:before {
+  content: "\e030";
+}
+.JJ-layers1:before {
+  content: "\e031";
+}
+.JJ-pencil5:before {
+  content: "\e032";
+}
+.JJ-tools2:before {
+  content: "\e033";
+}
+.JJ-tools-2:before {
+  content: "\e034";
+}
+.JJ-scissors3:before {
+  content: "\e035";
+}
+.JJ-paintbrush:before {
+  content: "\e036";
+}
+.JJ-magnifying-glass1:before {
+  content: "\e037";
+}
+.JJ-circle-compass:before {
+  content: "\e038";
+}
+.JJ-linegraph:before {
+  content: "\e039";
+}
+.JJ-mic2:before {
+  content: "\e03a";
+}
+.JJ-strategy:before {
+  content: "\e03b";
+}
+.JJ-beaker:before {
+  content: "\e03c";
+}
+.JJ-caution:before {
+  content: "\e03d";
+}
+.JJ-recycle:before {
+  content: "\e03e";
+}
+.JJ-anchor1:before {
+  content: "\e03f";
+}
+.JJ-profile-male:before {
+  content: "\e040";
+}
+.JJ-profile-female:before {
+  content: "\e041";
+}
+.JJ-bike2:before {
+  content: "\e042";
+}
+.JJ-wine:before {
+  content: "\e043";
+}
+.JJ-hotairballoon:before {
+  content: "\e044";
+}
+.JJ-globe3:before {
+  content: "\e045";
+}
+.JJ-genius:before {
+  content: "\e046";
+}
+.JJ-map-pin:before {
+  content: "\e047";
+}
+.JJ-dial:before {
+  content: "\e048";
+}
+.JJ-chat5:before {
+  content: "\e049";
+}
+.JJ-heart6:before {
+  content: "\e04a";
+}
+.JJ-cloud4:before {
+  content: "\e04b";
+}
+.JJ-upload6:before {
+  content: "\e04c";
+}
+.JJ-download8:before {
+  content: "\e04d";
+}
+.JJ-target2:before {
+  content: "\e04e";
+}
+.JJ-hazardous:before {
+  content: "\e04f";
+}
+.JJ-piechart:before {
+  content: "\e050";
+}
+.JJ-speedometer:before {
+  content: "\e051";
+}
+.JJ-global:before {
+  content: "\e052";
+}
+.JJ-compass4:before {
+  content: "\e053";
+}
+.JJ-lifesaver:before {
+  content: "\e054";
+}
+.JJ-clock4:before {
+  content: "\e055";
+}
+.JJ-aperture:before {
+  content: "\e056";
+}
+.JJ-quote3:before {
+  content: "\e057";
+}
+.JJ-scope:before {
+  content: "\e058";
+}
+.JJ-alarmclock1:before {
+  content: "\e059";
+}
+.JJ-refresh1:before {
+  content: "\e05a";
+}
+.JJ-happy1:before {
+  content: "\e05b";
+}
+.JJ-sad3:before {
+  content: "\e05c";
+}
+.JJ-facebook3:before {
+  content: "\e05d";
+}
+.JJ-twitter2:before {
+  content: "\e05e";
+}
+.JJ-googleplus:before {
+  content: "\e05f";
+}
+.JJ-rss3:before {
+  content: "\e060";
+}
+.JJ-tumblr3:before {
+  content: "\e061";
+}
+.JJ-linkedin3:before {
+  content: "\e062";
+}
+.JJ-dribbble2:before {
+  content: "\e063";
+}
+.JJ-heart7:before {
+  content: "\ec6b";
+}
+.JJ-cloud5:before {
+  content: "\ec6c";
+}
+.JJ-star2:before {
+  content: "\ec6d";
+}
+.JJ-tv3:before {
+  content: "\ec6e";
+}
+.JJ-sound1:before {
+  content: "\ec6f";
+}
+.JJ-video2:before {
+  content: "\ec70";
+}
+.JJ-trash1:before {
+  content: "\ec71";
+}
+.JJ-user4:before {
+  content: "\ec72";
+}
+.JJ-key5:before {
+  content: "\ec73";
+}
+.JJ-search3:before {
+  content: "\ec74";
+}
+.JJ-settings1:before {
+  content: "\ec75";
+}
+.JJ-camera7:before {
+  content: "\ec76";
+}
+.JJ-tag4:before {
+  content: "\ec77";
+}
+.JJ-lock4:before {
+  content: "\ec78";
+}
+.JJ-bulb:before {
+  content: "\ec79";
+}
+.JJ-pen3:before {
+  content: "\ec7a";
+}
+.JJ-diamond2:before {
+  content: "\ec7b";
+}
+.JJ-display1:before {
+  content: "\ec7c";
+}
+.JJ-location4:before {
+  content: "\ec7d";
+}
+.JJ-eye3:before {
+  content: "\ec7e";
+}
+.JJ-bubble1:before {
+  content: "\ec7f";
+}
+.JJ-stack5:before {
+  content: "\ec80";
+}
+.JJ-cup1:before {
+  content: "\ec81";
+}
+.JJ-phone7:before {
+  content: "\ec82";
+}
+.JJ-news1:before {
+  content: "\ec83";
+}
+.JJ-mail5:before {
+  content: "\ec84";
+}
+.JJ-like:before {
+  content: "\ec85";
+}
+.JJ-photo:before {
+  content: "\ec86";
+}
+.JJ-note1:before {
+  content: "\ec87";
+}
+.JJ-clock5:before {
+  content: "\ec88";
+}
+.JJ-paperplane1:before {
+  content: "\ec89";
+}
+.JJ-params:before {
+  content: "\ec8a";
+}
+.JJ-banknote:before {
+  content: "\ec8b";
+}
+.JJ-data:before {
+  content: "\ec8c";
+}
+.JJ-music3:before {
+  content: "\ec8d";
+}
+.JJ-megaphone4:before {
+  content: "\ec8e";
+}
+.JJ-study:before {
+  content: "\ec8f";
+}
+.JJ-lab3:before {
+  content: "\ec90";
+}
+.JJ-food:before {
+  content: "\ec91";
+}
+.JJ-t-shirt:before {
+  content: "\ec92";
+}
+.JJ-fire1:before {
+  content: "\ec93";
+}
+.JJ-clip:before {
+  content: "\ec94";
+}
+.JJ-shop1:before {
+  content: "\ec95";
+}
+.JJ-calendar7:before {
+  content: "\ec96";
+}
+.JJ-wallet3:before {
+  content: "\ec97";
+}
+.JJ-vynil:before {
+  content: "\ec98";
+}
+.JJ-truck2:before {
+  content: "\ec99";
+}
+.JJ-world:before {
+  content: "\ec9a";
+}
