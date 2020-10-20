@@ -42,7 +42,8 @@
     </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://wi.wallpapertip.com/wsimgs/13-133698_fallen-kingdom-wallpapers-jurassic-world-fallen-kingdom.png" alt="Segundo Slide">
+      <img class="d-block" src="https://wi.wallpapertip.com/wsimgs/13-133698_fallen-kingdom-wallpapers-jurassic-world-fallen-kingdom.png" height="300px"
+      width="1000px" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
    <h5>nfkjasdnfaksdjnfkjasd</h5>
    <p>asldkfmnklasdmflkasmdf</p>
@@ -113,6 +114,34 @@
 
 <!-- FIM DOS CÍRCULOS -->
 </div>
+
+<!-- RODAPÉ --> 
+<br>
+<br>
+<footer>
+<div style="background-image: url();" >
+<div class="container-fluid btn-dark" >
+<div class="row" >
+<div class="col" >
+
+<ul>
+<h6>Desenvolvedores do Site</h6>
+<li>Andrew Matheus </li>  
+<li>Junior Ferreira</li>
+<li>Adryan Lucas</li>
+
+</ul>    
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+</footer>
 </body>
 <script src="public/js/jquery.js" ></script>
 <script src="public/bootstrap/js/bootstrap.min.js"></script>
