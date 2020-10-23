@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "geek";
-    src: url("../public/fontes/geek.ttf");
+    font-family: "fuego";
+    src: url("../../public/fontes/inferno.ttf");
 }
 
 ul,
@@ -30,12 +30,25 @@ li {
     text-shadow: 2px 2px #000000;
 }
 
+#card1:hover {
+    box-shadow: #000000 4px 4px 4px 4px;
+}
+
+#card2:hover {
+    box-shadow: #000000 4px 4px 4px 4px;
+}
+
+#card3:hover {
+    box-shadow: #000000 4px 4px 4px 4px;
+}
+
 #conhecer {
     color: rgb(0, 0, 0);
 }
 
 #esp {
-    font-family: "geek";
+    font-family: "fuego";
+    color: rgb(170, 46, 29);
 }
 
 .rounded-circle:hover {
@@ -54,10 +67,85 @@ body {
 
 #header {
     padding: 5px;
-    text-align: center;
-    background: #4b5352;
+    text-align: left;
     color: white;
     font-size: 30px;
+   
+   
 }
 
-.jura {}
+#achados {
+    font-family: "fuego";
+    color: rgb(176, 187, 82);
+}
+
+#dragon{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Sobre{
+    position: absolute;
+    right: 30px;
+    top: 10;
+    color:  #996633;
+}
+
+#p1{
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    color: rgb(37, 167, 44);
+}
+#p2{
+    position: absolute;
+    right: 30px;
+    top: 105px;
+}
+
+#p3 { position: absolute;
+    right: 30px;
+    top: 140px;
+}
+.carousel-item img{
+    width: auto;
+    height: 245px;
+    max-height: 245px;
+    margin: auto; 
+    display: block;
+    }
+
+    #circle{
+        border: solid 2px;
+        border-radius: 10px;
+        border-top-color: green;
+        border-bottom-color: green;
+        border-left-color: green;
+        border-right-color: green;
+        color: rgb(189, 189, 189);
+        background-image: url(https://images-na.ssl-images-amazon.com/images/I/61Hvmpdj7RL._AC_SL1000_.jpg);
+    }
+
+    #conhecer:hover{
+        box-shadow: #000000 4px 4px 4px 4px;
+    }
+
+      
+      #slid1 {
+        position: absolute;
+        left: -40px;
+        top: 800px;
+      }
+      
+      #slid2 {
+        position: absolute;
+        right: -30px;
+        top: 800px;
+      }
+
+      #slideimg {
+          border: rgb(0, 0, 0) solid 4px;
+          border-radius: 10px;
+      }
+
+     
+    
